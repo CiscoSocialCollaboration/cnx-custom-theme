@@ -1,0 +1,474 @@
+//Global
+span.lotusBtn {
+  border: none !important;
+  background-color: $color-white !important;
+  &:hover {
+    border: none !important;
+    background-color: $color-white !important;
+  }
+}
+
+//Save and Cancel Buttons: start
+input[value = "Save"], input[value = "Post"], input[value = "Delete"], input[value = "Preview"], input[value = "Save as Draft"], input[value = "OK"], input[value = "Save and Close"], input[value = "Send Invitations"], input[value = "Import"], input[value = "Export"], input[type = "submit"]{
+  @include btnbasics;
+	@include btnprimary;
+}
+
+input[value = "Save"]:hover:not([disabled]), input[value = "Delete"]:hover:not([disabled]), input[value = "Post"]:hover:not([disabled]), input[value = "Preview"]:hover:not([disabled]), input[value = "Save as Draft"]:hover:not([disabled]), input[value = "OK"]:hover:not([disabled]), input[value = "Save and Close"]:hover:not([disabled]), input[value = "Send Invitations"]:hover:not([disabled]), input[value = "Import"]:hover:not([disabled]), input[value = "Export"]:hover:not([disabled]), input[type = "submit"]:hover:not([disabled]){
+  background-color: $brand-01 !important;
+  border-color: $brand-01 !important;
+}
+
+input[value = "Cancel"] {
+  @include btnbasics;
+	@include btnsecondary;
+}
+
+input[value = "Cancel"]:hover:not([disabled]) {
+  background-color: $brand-02 !important;
+  border-color: $brand-02 !important;
+}
+//Save Buttons: end
+
+//Share status update: start
+div#lconn_news_microblogging_sharebox_InputForm_0_myactions a.ublogPost.lotusPersonInactive {
+  @include btnsecondary;
+  color: $color-gray-10 !important;
+  border-color: $color-gray-10 !important;
+  &:hover {
+    color: $color-gray-10 !important;
+    border-color: $color-gray-10 !important;
+    background-color: $color-white !important;
+  }
+}
+div#lconn_news_microblogging_sharebox_InputForm_0_myactions a.ublogPost {
+  @include btnbasics;
+  @include btnprimary;
+  border: solid 1px $brand-02 !important;
+
+  &:hover {
+    background-color: $brand-01 !important;
+    border-color: $brand-01 !important;
+  }
+}
+
+div#lconn_news_microblogging_sharebox_InputForm_0_myactions ul.lotusInlinelist.lotusLeft{
+  float: left !important;
+}
+div#lconn_news_microblogging_sharebox_InputForm_0_myactions ul.ublogActionsList a.lotusHidden {
+  display: none !important;
+}
+div#lconn_news_microblogging_sharebox_InputForm_0_myactions a.lotusDelete {
+  background-color: $color-white !important;
+  border: none !important;
+  //color: $color-gray-1 !important;
+  display: inline-flex !important;
+}
+
+div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="myactions"] .lotusInlinelist {
+    display: inline-block !important;
+    height: auto !important;
+    //margin-top: 0 !important;
+}
+
+div[id^="lconn_news_microblogging_sharebox_InputForm_"] {
+
+}
+
+div#lconn_news_microblogging_sharebox_InputForm_0_myactions ul.ublogActionsList {
+  //margin-top: -9px !important;
+  padding-top: 0px !important;
+}
+
+.lotusStreamUpdate .lotusActions ul {
+    float: right !important;
+    margin-top: 1rem;
+}
+//Share status update: end
+
+//Activities Buttons: start
+span[id^="lconn_act_StartActivityButton_"]{
+  border: none !important;
+  padding: 0px !important;
+}
+
+#lconn_act_StartActivityButton_0:hover, #lconn_act_StartActivityButton_1:hover {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+span[id^="lconn_act_StartActivityButton_"] a {
+  @include btnbasics;
+	@include btnsecondary;
+  border-radius: 2rem !important;
+  background-image: none;
+  box-shadow: none !important;
+  display: block;
+
+  &:hover{
+    background-color: $brand-02 !important;
+    border-color: $brand-02 !important;
+    color: $color-white !important;
+  }
+}
+//Activities Buttons: end
+
+//Forum buttons: start
+div#dfForumList > div >  span.lotusBtn.lotusBtnAction, div#dfTopicList > div >  span.lotusBtn.lotusBtnAction {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+  a {
+    @include btnbasics;
+  	@include btnsecondary;
+    border-radius: 2rem !important;
+    background-image: none;
+    box-shadow: none !important;
+    display: block;
+
+    &:hover{
+      background-color: $brand-02 !important;
+      border-color: $brand-02 !important;
+      color: $color-white !important;
+    }
+  }
+}
+
+div#forum div.lotusBtnContainer > span.lotusBtn.lotusBtnAction {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+  a {
+    @include btnbasics;
+  	@include btnsecondary;
+    border-radius: 2rem !important;
+    background-image: none;
+    box-shadow: none !important;
+    display: block;
+
+    &:hover{
+      background-color: $brand-02 !important;
+      border-color: $brand-02 !important;
+      color: $color-white !important;
+    }
+  }
+}
+//Forum buttons: end
+
+//Blog buttons: start
+div[aria-label="Blog Actions"] > span.lotusBtn.lotusLeft {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+//Blog buttons: end
+
+//Ideation blog buttons: start
+div[id^="lconn_communityblogs_multipleideation_CreateIdeationBlog_"] > div.lotusActionBar.lotusBtnContainer > span.lotusBtn.lotusLeft{
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+//Ideation blog buttons: end
+
+//Bookmarks buttons: start
+table.lotusLayout.lotusHeader[role="presentation"] > tbody > tr > td > div.lotusBtnContainer > span.lotusBtn.lotusBtnAction.commFocusMT {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+//Bookmarks buttons: end
+
+//Activities buttons(in a Community): start
+div#startActivity > span.lotusBtn {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+
+div#activityActionButtons > span.lotusBtn.lotusBtnAction.lotusLeft {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+//Activities buttons(in a Community): end
+
+//Surverys buttons: start
+div#_W6618977cb5db_481e_b111_48d48b875ebc_FULLPAGE_listSection_controllerSection > div.lotusLeft > span.lotusBtn.lotusBtnAction{
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+//Surverys buttons: end
+
+//Community Files buttons: start
+div[id^="com_ibm_social_layout_widget_ActionBar_"] > button.lotusBtn.lotusBtnDisabled {
+  @include btnsecondary;
+  color: $color-gray-10 !important;
+  border-color: $color-gray-10 !important;
+  &:hover {
+    color: $color-gray-10 !important;
+    border-color: $color-gray-10 !important;
+    background-color: $color-white !important;
+  }
+}
+
+button[id^="lconn_files_action_additem_"] {
+  background-color: $brand-02 !important;
+  color: $color-white !important;
+  width: 50% !important;
+  margin-left: 50px !important;
+  &:hover {
+    border-color: $brand-01 !important;
+    background-color: $brand-01 !important;
+  }
+}
+//Community Files buttons: end
+
+//Community Add member: start
+tr#controlsRow > div#memberAddButton > span.lotusBtn.lotusBtnAction.lotusLeft.commFocusMT {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+//Community Add member: end
+
+//Community Events buttons: start
+div#calendar_view span.lotusBtn {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+div#calendar_view span.lotusBtn.lotusLeft.lotusBtnDisabled > a {
+  color: $color-gray-10 !important;
+  border-color: $color-gray-10 !important;
+  &:hover {
+    color: $color-gray-10 !important;
+    border-color: $color-gray-10 !important;
+    background-color: $color-white !important;
+  }
+}
+//Community Events buttons: end
+
+//Fixing Edit Community page: start
+.lotusui30 input.lotusFormButton {
+  background-image: none !important;
+}
+
+.lotusui30 .lotusBtn {
+  background-image: none !important;
+}
+
+input[value="Cancel "], input[value="Cancel"], #W0484389a103d_4203_ae1b_88707a4fdde1_prefs-cancel{
+  background-color: white !important;
+  color: $brand-02 !important;
+  &:hover{
+    background-color: $brand-02 !important;
+    border-color: $brand-02 !important;
+    color: $color-white !important;
+  }
+}
+//Fixing Edit Community page: end
+
+//Fixing access denied button: start
+span.lotusBtn.lotusBtnAction.lotusFirst {
+  border: none !important;
+  padding: 0px !important;
+  &:hover {
+    border: none !important;
+    background-color: transparent !important;
+   }
+   a {
+     @include btnbasics;
+   	 @include btnsecondary;
+     border-radius: 2rem !important;
+     background-image: none;
+     box-shadow: none !important;
+     display: block;
+
+     &:hover{
+       background-color: $brand-02 !important;
+       border-color: $brand-02 !important;
+       color: $color-white !important;
+     }
+   }
+}
+//Fixing access denied button: end
+
+//Login page Cancel button
+#change_button {
+  //color: $brand-02 !important;
+}
+
+#cancelButtonWrapper input{
+  color: $brand-02 !important;
+  &:hover {
+    color: $color-white !important;
+  }
+}
+
+//Wikis apply button
+#contentContainer_results_FiltersForm_Submit, #contentContainer_results #filtersContainer > div a {
+  @include btnbasics;
+  @include btnsecondary;
+  border-radius: 2rem !important;
+  background-image: none;
+  box-shadow: none !important;
+  display: block;
+
+  &:hover{
+    background-color: $brand-02 !important;
+    border-color: $brand-02 !important;
+    color: $color-white !important;
+  }
+}
+
+#contentContainer_results #filtersContainer > div a:hover:hover {
+  @include btnbasics;
+  @include btnsecondary;
+  background-color: $brand-02 !important;
+  border-color: $brand-02 !important;
+  color: $color-white !important;
+}

@@ -23,7 +23,6 @@ function periscope(){
   //page.
   var mappings = {
     //global is special case where the empty array applies to all the pages.
-    "global":[],
     "files":["/files/"],
     "meetings":["/meetings/"],
     "profiles":["/profiles/",
@@ -39,7 +38,8 @@ function periscope(){
     "wikis":["/wikis/"],
     "settings":["/manage/account/user/",
                 "/news/web/",
-                "/manage/subscribers/showInviteGuestDialog/"]
+                "/manage/subscribers/showInviteGuestDialog/"],
+    "global":[]
   };
 
   //This is the function that applies the style

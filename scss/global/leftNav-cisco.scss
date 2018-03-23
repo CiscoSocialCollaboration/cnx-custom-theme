@@ -1,0 +1,173 @@
+//Homepage
+#homepageLeftNavigationMenuContainer li{
+  &:hover{
+    background-color: $color-gray-10 !important;
+  }
+  padding: 14px 24px !important;
+  padding-left: 39px !important;
+  margin: 0px !important;
+  transition: $border-slide !important;
+  &.lotusSelected{
+    border-left-color: $brand-02 !important;
+    margin-left: 1px !important;
+    a{
+      font-weight: bold !important;
+      text-decoration-line: none !important;
+    }
+  }
+  a{
+    margin: 0px !important;
+    &:hover, &:focus{
+      border: none !important;
+    }
+  }
+}
+
+.lotusui30 .lotusColLeft .lotusMenu li a{
+  border: none !important;
+  &:hover{
+    border: none !important;
+  }
+}
+
+.lotusMain #lotusColLeft {
+  .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter),
+  .lotusMenuSection,
+  #lotusSidenav.lotusMenu,
+  span.X-community-display-inline {
+    .dijitTreeNode .dijitTreeRow {
+      &.dijitTreeNodeSelected {
+        border-left: 4px solid $brand-02 !important;
+      }
+    }
+  }
+}
+
+.lotusMain {
+  #lotusColLeft{
+    .lotusMenuSection > ul > li,
+    .lotusMenuSection > div > div > ul,
+    .lotusMenuSection > div > div > ul > li,
+    .lotusMenuSubsection > ul > li,
+    > .lotusSection:not(#lconnTagCloudFilter) ul li,
+    #sideNav .lotusMenuSection .dijitTreeContainer .dijitTreeNode .dijitTreeContainer .dijitTreeNode,
+    #sideNav > div > ul > li,
+    .lotusChunk.lotusTiny.lotusRight,
+    > .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter) > .lotusSectionBody > ul.lotusList.lotusEditable.lotusMeta.lotusTags > li,
+    .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter) > div #allPagesList li + li {
+      a, div.dijitTreeRow {
+        &.dijitTreeRowSelected {
+          border-left: 4px solid $brand-02 !important;
+        }
+      }
+      &.lotusSelected,
+      &:focus {
+        border-left: 4px solid $brand-02 !important;
+      }
+    }
+  }
+}
+
+.lotusui.lotusui30dojo.lotusui30_body .lotusFrame .lotusColLeft ul.searchFilter li{
+  border-left-color: $brand-02 !important;
+}
+
+.lotusColLeft a:hover{
+  text-decoration-line: none !important;
+}
+
+.lotusColLeft .lotusSelected{
+  margin-left: 1px !important;
+}
+
+//Files
+.lotusMain #lotusColLeft .lotusMenuSection > .lotusClickable:first-child.lotusSelected, .lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected], .lotusMain #lotusColLeft .lotusMenuSubsection .lotusClickable.lotusSelected, #menu_allfiles_childContainer > div.lotusSelected{
+  border-left-color: $brand-02 !important;
+  a:focus{
+    text-decoration-line: none !important;
+  }
+}
+
+.lotusMain #lotusColLeft .lotusMenuSection > .lotusClickable a{
+  &:active, &:focus{
+    text-decoration-line: none !important;
+  }
+}
+
+//Communities
+.lotusColLeft {
+  margin: 0px !important;
+  padding-right: 0px !important;
+}
+
+div[id^="lconn_communities_catalog_widgets_PlacesNavigation_"] li{
+  &:hover{
+    background-color: $color-gray-10
+  }
+  padding: 14px 24px !important;
+  padding-left: 39px !important;
+  margin: 0px !important;
+  transition: $border-slide !important;
+  &.lotusSelected{
+    border-left-color: $brand-02 !important;
+    margin-left: 1px !important;
+    &:hover{
+      background-color: $color-gray-10 !important;
+    }
+    a{
+      font-weight: bold !important;
+      text-decoration-line: none !important;
+    }
+  }
+  a{
+    margin: 0px !important;
+    &:hover, &:focus{
+      border: none !important;
+    }
+  }
+}
+
+div[id^="lconn_communities_catalog_widgets_TagFilter_"] h2{
+  margin-left: 20px !important;
+}
+
+.lotusui30 .lotusColLeft .lotusMenu li a:focus{
+  border: none !important;
+  text-decoration-line: none !important;
+}
+
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li.lotusSelected a, .lotusMain #lotusColLeft .lotusMenuSubsection > ul > li.lotusSelected a{
+  border-left: none !important;
+}
+
+//Activities
+#dashboardColLeft li, #todolistColLeft li, #t_dashboardColLeft li, #ruDashNavPanel li{
+  &:hover{
+    background-color: $color-gray-10
+  }
+  padding: 14px 24px !important;
+  padding-left: 39px !important;
+  margin: 0px !important;
+  transition: $border-slide !important;
+  &.lotusSelected{
+    border-left-color: $brand-02 !important;
+    margin-left: 1px !important;
+    &:hover{
+      background-color: $color-gray-10 !important;
+    }
+    a{
+      font-weight: bold !important;
+      text-decoration-line: none !important;
+    }
+  }
+  a{
+    margin: 0px !important;
+    &:hover, &:focus{
+      border: none !important;
+    }
+  }
+}
+
+#dashboardColLeft h3, #dashboardColLeft h2, #todoTagCloud h2, #t_dashboardColLeft h2, #ruDashNavPanel h2, #ruDashNavPanel h3, div[title="Tags"] h2{
+  margin-left: 20px !important;
+}
