@@ -321,15 +321,12 @@ div#lotusFrame, .lotusFrame{
     }
   }
 }
-
-#6a94f5e0-8e1c-4098-9a00-e1bf0e13ff95 {
-margin-right: 8px !important;
- svg.menu-image{
-   width: 10px !important;
-   height: 8px !important;
- }
+div[aria-label="Communities"] {
+  margin-right: 7px !important;
 }
-
+.ics-scbanner .menu-image{
+  width:10px !important;
+}
 //Orient Me fix
 #bsscom-helpMenu, #notificationsMenu_container, #bss-usersMenu {
   box-sizing: content-box !important;

@@ -9356,6 +9356,9 @@ body.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action:not(.ics-viewer-acti
   position: relative !important;
   top: -1px !important; }
 
+.lotusui30_layout .lotusColLeft:after {
+  position: fixed !important; }
+
 /*#nav_bar_include{
   visibility: hidden;
 }*/
@@ -9601,11 +9604,11 @@ div#lotusFrame, .lotusFrame {
   .notifications .navmenu-button .nav-icon {
     visibility: visible !important; }
 
-#6a94f5e0-8e1c-4098-9a00-e1bf0e13ff95 {
-  margin-right: 8px !important; }
-  #6a94f5e0-8e1c-4098-9a00-e1bf0e13ff95 svg.menu-image {
-    width: 10px !important;
-    height: 8px !important; }
+div[aria-label="Communities"] {
+  margin-right: 7px !important; }
+
+.ics-scbanner .menu-image {
+  width: 10px !important; }
 
 #bsscom-helpMenu, #notificationsMenu_container, #bss-usersMenu {
   box-sizing: content-box !important; }
