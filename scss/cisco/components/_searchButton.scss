@@ -1,0 +1,13 @@
+.icSearchPaneButton {
+  &:hover, &.icSearchFocused{
+    border-color: $brand-02 !important;
+    background-color:$brand-02 !important;
+    a {
+      background-image: svg-url-with-replaced-fill($svg-search, '#000000', $color-white);
+    }
+  }
+}
+
+// .icSearchPaneButton {
+//   border-radius: 0 !important;
+// }

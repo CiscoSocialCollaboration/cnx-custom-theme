@@ -15,7 +15,7 @@
 */
 //
 var repoNameValue = getParams('periscope.js');
-//console.log('Repository name is ' + repoNameValue);
+// console.log('Repository name is ' + repoNameValue);
 
 function periscope(){
   //Instead of adding in code, all we need to change is the mapping object
@@ -23,7 +23,6 @@ function periscope(){
   //page.
   var mappings = {
     //global is special case where the empty array applies to all the pages.
-    "global":[],
     "files":["/files/"],
     "meetings":["/meetings/"],
     "profiles":["/profiles/",
@@ -39,7 +38,8 @@ function periscope(){
     "wikis":["/wikis/"],
     "settings":["/manage/account/user/",
                 "/news/web/",
-                "/manage/subscribers/showInviteGuestDialog/"]
+                "/manage/subscribers/showInviteGuestDialog/"],
+    "global":[]
   };
 
   //This is the function that applies the style
@@ -103,6 +103,7 @@ function periscope(){
       }
     }
   });
+  ciscoMod(repoNameValue);
 }
 if (!String.prototype.includes) {
   String.prototype.includes = function() {

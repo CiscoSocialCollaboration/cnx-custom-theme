@@ -21,6 +21,7 @@
 /* ------------------------------------------------- */
 /* ==from https://codepen.io/jakob-e/pen/doMoML       */
 /* ------------------------------------------------- */
+/*Cisco Configuration Variables*/
 /*Component Imports*/
 #notificationsMenu #headerPopupNode, #notificationsMenu .icBanner-popover-footer ul {
   padding: 18px 24px 18px 24px !important; }
@@ -33,7 +34,7 @@
   white-space: nowrap;
   text-overflow: ellipsis; }
 #notificationsMenu .header-right span, #notificationsMenu .header-right a {
-  color: #3C6DF0 !important;
+  color: #007FAB !important;
   padding: 0px !important;
   margin: 0px !important; }
   #notificationsMenu .header-right span:hover, #notificationsMenu .header-right span:focus, #notificationsMenu .header-right a:hover, #notificationsMenu .header-right a:focus {
@@ -64,7 +65,7 @@
     padding-bottom: 16px !important; }
   #notificationsMenu .icBanner-popover-footer .icBanner-footer-link {
     font-size: 14px !important;
-    color: #3C6DF0 !important; }
+    color: #007FAB !important; }
     #notificationsMenu .icBanner-popover-footer .icBanner-footer-link:hover {
       text-decoration: underline !important; }
 #notificationsMenu .icBanner-popover-content .icNotification-post {
@@ -72,15 +73,15 @@
   padding-top: 16px !important;
   padding-bottom: 16px !important; }
   #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body:not(.selected) .bluedot {
-    background-color: #3C6DF0 !important; }
+    background-color: #007FAB !important; }
     #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body:not(.selected) .bluedot:hover {
-      border-color: #3C6DF0 !important; }
+      border-color: #007FAB !important; }
   #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .bluedot {
     display: none !important; }
   #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title a {
     font-weight: 400 !important; }
     #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title.fn.url, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title a.fn.url {
-      color: #595859 !important; }
+      color: #58585B !important; }
   #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary {
     text-overflow: ellipsis !important; }
     #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary img {
@@ -91,7 +92,7 @@
       float: left; }
     #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary p:lang(en):after {
       content: 'No comment provided';
-      color: #595859;
+      color: #58585B;
       font-weight: 400;
       position: relative;
       bottom: 0;
@@ -101,7 +102,7 @@
       background: #FFFFFF;
       display: inline-block; }
   #notificationsMenu .icBanner-popover-content .icNotification-post .bluedot {
-    border-color: #3C6DF0 !important;
+    border-color: #007FAB !important;
     top: 19px !important;
     left: 45px !important;
     width: 8px !important;
@@ -109,13 +110,13 @@
   #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title {
     font-weight: 600 !important; }
     #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a {
-      color: #3C6DF0 !important;
+      color: #049FD9 !important;
       font-weight: bold !important; }
       #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:visited {
-        color: #3C6DF0 !important; }
+        color: #049FD9 !important; }
       #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:active, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:hover, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:focus {
         text-decoration-line: underline !important;
-        text-decoration-color: #3C6DF0 !important;
+        text-decoration-color: #007FAB !important;
         text-decoration: underline !important;
         outline: none !important; }
     #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a.fn.url {
@@ -124,7 +125,7 @@
   #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-time abbr {
     text-decoration: none !important;
     font-weight: normal !important;
-    color: #595859 !important; }
+    color: #58585B !important; }
   #notificationsMenu .icBanner-popover-content .icNotification-post:before {
     width: 100% !important; }
   #notificationsMenu .icBanner-popover-content .icNotification-post:hover {
@@ -220,9 +221,9 @@ a.lotusPerson, a:visited.lotusPerson, .vcard a.fn.url {
     margin: 0 1rem 1rem 1rem !important;
     padding: 0.5rem 0 !important; }
     #javlinDiv .personMenu ul.topActionHolder li.topAction a {
-      color: #3C6DF0 !important; }
+      color: #007FAB !important; }
       #javlinDiv .personMenu ul.topActionHolder li.topAction a:hover {
-        text-decoration-color: #3C6DF0 !important; }
+        text-decoration-color: #007FAB !important; }
       #javlinDiv .personMenu ul.topActionHolder li.topAction a::after {
         content: "";
         padding-left: 1px;
@@ -261,8 +262,8 @@ a.lotusPerson, a:visited.lotusPerson, .vcard a.fn.url {
   white-space: nowrap !important;
   padding: 9px 20px !important;
   font-weight: 500 !important;
-  background-color: #3C6DF0 !important;
-  border-color: #3C6DF0 !important;
+  background-color: #049FD9 !important;
+  border-color: #049FD9 !important;
   color: #FFFFFF !important; }
   .ics-viewer-splitbutton .actionLink:hover, .ics-viewer-splitbutton .actionLink:active,
   .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:hover,
@@ -274,7 +275,7 @@ a.lotusPerson, a:visited.lotusPerson, .vcard a.fn.url {
   .ics-viewer-splitbutton .actionLink:focus,
   .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
   .ics-viewer-action-splitmenu span.dijitButtonNode:focus {
-    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
   .dj_a11y .ics-viewer-splitbutton .actionLink:focus, .dijit_a11y .ics-viewer-splitbutton .actionLink:focus,
   .dj_a11y .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
@@ -282,16 +283,17 @@ a.lotusPerson, a:visited.lotusPerson, .vcard a.fn.url {
   .dj_a11y .ics-viewer-action-splitmenu span.dijitButtonNode:focus,
   .dijit_a11y .ics-viewer-action-splitmenu span.dijitButtonNode:focus {
     box-shadow: none !important;
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
   .ics-viewer-splitbutton .actionLink:active, .ics-viewer-splitbutton .actionLink:hover,
   .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:active,
   .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:hover,
   .ics-viewer-action-splitmenu span.dijitButtonNode:active,
   .ics-viewer-action-splitmenu span.dijitButtonNode:hover {
-    background-color: #FFFFFF !important;
-    color: #3C6DF0 !important;
-    border-color: #3C6DF0 !important; }
+    background-color: #007FAB !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
   .ics-viewer-splitbutton .actionLink span,
   .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink span,
   .ics-viewer-action-splitmenu span.dijitButtonNode span {
@@ -305,7 +307,7 @@ a.lotusPerson, a:visited.lotusPerson, .vcard a.fn.url {
   border-radius: 0 2rem 2rem 0rem !important;
   padding: .5rem 1rem .5rem .5rem !important; }
 .ics-viewer-action-splitmenu .dijitDropDownButtonFocused span.dijitButtonNode {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+  box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
   outline: none !important; }
 
 .ics-viewer-splitbutton .actionLink,
@@ -350,8 +352,8 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   padding: 9px 20px !important;
   font-weight: 500 !important;
   background-color: #FFFFFF !important;
-  border-color: #3C6DF0 !important;
-  color: #3C6DF0 !important; }
+  border-color: #049FD9 !important;
+  color: #049FD9 !important; }
   .lotusBtn:hover, .lotusBtn:active,
   .lotusFormButton:hover,
   .lotusFormButton:active,
@@ -401,7 +403,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   #forum .lotusBtn a:focus,
   #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:focus,
   div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus {
-    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
   .dj_a11y .lotusBtn:focus, .dijit_a11y .lotusBtn:focus,
   .dj_a11y .lotusFormButton:focus,
@@ -435,7 +437,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   .dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus,
   .dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus {
     box-shadow: none !important;
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
   .lotusBtn:active, .lotusBtn:hover,
   .lotusFormButton:active,
@@ -468,9 +470,10 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:hover,
   div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):active,
   div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):hover {
-    background-color: #3C6DF0 !important;
+    background-color: #049FD9 !important;
     color: #FFFFFF !important;
-    border-color: #3C6DF0 !important; }
+    border-color: #FFFFFF !important;
+    outline: none !important; }
   .lotusBtn:disabled, .lotusBtn:disabled:hover, .lotusBtn:disabled:active, .lotusBtn[disabled="disabled"], .lotusBtn[disabled="disabled"]:hover, .lotusBtn[disabled="disabled"]:active, .lotusBtn.lotusBtnDisabled, .lotusBtn.lotusBtnDisabled:hover, .lotusBtn.lotusBtnDisabled:active,
   .lotusFormButton:disabled,
   .lotusFormButton:disabled:hover,
@@ -779,8 +782,8 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   white-space: nowrap !important;
   padding: 9px 20px !important;
   font-weight: 500 !important;
-  background-color: #3C6DF0 !important;
-  border-color: #3C6DF0 !important;
+  background-color: #049FD9 !important;
+  border-color: #049FD9 !important;
   color: #FFFFFF !important; }
   #submit_button:hover, #submit_button:active,
   #btn_actn__personCardSendEMail:hover,
@@ -807,7 +810,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   .ics-viewer-action-upload .actionLink:focus,
   .lotusBtn.submit.lotusButtonSubmit:focus,
   .filesList .lotusDetails .lotusBtnSmall:focus {
-    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
   .dj_a11y #submit_button:focus, .dijit_a11y #submit_button:focus,
   .dj_a11y #btn_actn__personCardSendEMail:focus,
@@ -825,7 +828,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   .dj_a11y .filesList .lotusDetails .lotusBtnSmall:focus,
   .dijit_a11y .filesList .lotusDetails .lotusBtnSmall:focus {
     box-shadow: none !important;
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
   #submit_button:active, #submit_button:hover,
   #btn_actn__personCardSendEMail:active,
@@ -842,9 +845,10 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   .lotusBtn.submit.lotusButtonSubmit:hover,
   .filesList .lotusDetails .lotusBtnSmall:active,
   .filesList .lotusDetails .lotusBtnSmall:hover {
-    background-color: #FFFFFF !important;
-    color: #3C6DF0 !important;
-    border-color: #3C6DF0 !important; }
+    background-color: #007FAB !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
   #submit_button:disabled, #submit_button:disabled:hover, #submit_button:disabled:active, #submit_button[disabled="disabled"], #submit_button[disabled="disabled"]:hover, #submit_button[disabled="disabled"]:active, #submit_button.lotusBtnDisabled, #submit_button.lotusBtnDisabled:hover, #submit_button.lotusBtnDisabled:active,
   #btn_actn__personCardSendEMail:disabled,
   #btn_actn__personCardSendEMail:disabled:hover,
@@ -1001,7 +1005,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   .ics-viewer-action-upload .actionLink:hover .lotusArrow.lotusDropDownSprite,
   .lotusBtn.submit.lotusButtonSubmit:hover .lotusArrow.lotusDropDownSprite,
   .filesList .lotusDetails .lotusBtnSmall:hover .lotusArrow.lotusDropDownSprite {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%233C6DF0%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23007FAB%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
 
 .lotusBtnDisabled, a.manualAdd[disabled="disabled"] {
   cursor: not-allowed;
@@ -1009,7 +1013,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
 
 .lotusBtnDisabled:hover {
   background-color: transparent !important;
-  color: #3C6DF0 !important; }
+  color: #007FAB !important; }
 
 .ics-viewer-action-upload .actionLink {
   font-weight: 500 !important; }
@@ -1035,7 +1039,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
     display: inline-block !important; }
 
 .lotusErrorBox.lotusError .lotusBtnContainer .lotusBtn a {
-  color: #3C6DF0 !important;
+  color: #007FAB !important;
   background: transparent !important; }
 .lotusErrorBox.lotusError .lotusBtnContainer .lotusBtn:hover a {
   color: #FFFFFF !important; }
@@ -1048,7 +1052,7 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
   #audioUploadFileSelectFieldsDiv > span.lotusBtn,
   #audioUploadFileSelectFieldsDiv > span.lotusBtn:hover {
     background: none !important;
-    color: #3C6DF0 !important; }
+    color: #007FAB !important; }
   #photoUploadFileSelectFieldsDiv > span.lotusBtn a,
   #audioUploadFileSelectFieldsDiv > span.lotusBtn a {
     margin: 0; }
@@ -1068,7 +1072,7 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"] {
     border: none !important; }
   body:not(.lotusImagesOff) button[id^="moreActionsBtn_lconn_profiles_actionBar_ActionBar"]:focus,
   body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
-    outline: 1px solid #3C6DF0; }
+    outline: 1px solid #007FAB; }
 
 .lotusStreamUpdate .lotusActions ul {
   float: none !important;
@@ -1092,8 +1096,8 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"] {
   white-space: nowrap !important;
   padding: 9px 20px !important;
   font-weight: 500 !important;
-  background-color: #3C6DF0 !important;
-  border-color: #3C6DF0 !important;
+  background-color: #049FD9 !important;
+  border-color: #049FD9 !important;
   color: #FFFFFF !important;
   display: inline-block;
   font-weight: normal !important; }
@@ -1101,16 +1105,17 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"] {
     text-decoration: none !important;
     outline: none; }
   .lotusStreamUpdate .lotusActions a[role="button"]:focus {
-    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
   .dj_a11y .lotusStreamUpdate .lotusActions a[role="button"]:focus, .dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"]:focus {
     box-shadow: none !important;
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
   .lotusStreamUpdate .lotusActions a[role="button"]:active, .lotusStreamUpdate .lotusActions a[role="button"]:hover {
-    background-color: #FFFFFF !important;
-    color: #3C6DF0 !important;
-    border-color: #3C6DF0 !important; }
+    background-color: #007FAB !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
   .lotusStreamUpdate .lotusActions a[role="button"] strong {
     font-weight: inherit; }
   .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"] {
@@ -1130,22 +1135,23 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"] {
     padding: 9px 20px !important;
     font-weight: 500 !important;
     background-color: #FFFFFF !important;
-    border-color: #3C6DF0 !important;
-    color: #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    color: #049FD9 !important; }
     .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:hover, .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:active {
       text-decoration: none !important;
       outline: none; }
     .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:focus {
-      box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+      box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
       outline: none !important; }
     .dj_a11y .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:focus, .dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:focus {
       box-shadow: none !important;
-      outline: 1px solid #3C6DF0 !important;
+      outline: 1px solid #049FD9 !important;
       outline-offset: 1px; }
     .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:active, .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:hover {
-      background-color: #3C6DF0 !important;
+      background-color: #049FD9 !important;
       color: #FFFFFF !important;
-      border-color: #3C6DF0 !important; }
+      border-color: #FFFFFF !important;
+      outline: none !important; }
 .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"], .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover, .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:active,
 .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover,
 .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover:hover,
@@ -1345,7 +1351,7 @@ tbody .lotusFirstCell {
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth th, div#list .lotusTable.lotusFixedTable.qkrFixedWidth th a, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort #topics, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a {
   font-size: 12px !important;
   font-weight: 500 !important;
-  color: #595859 !important; }
+  color: #58585B !important; }
   div#list .lotusTable.lotusFixedTable.qkrFixedWidth th:lang(en), div#list .lotusTable.lotusFixedTable.qkrFixedWidth th a:lang(en), div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort #topics:lang(en), div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a:lang(en) {
     text-transform: uppercase !important; }
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth th {
@@ -1355,11 +1361,11 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth th {
     div#list .lotusTable.lotusFixedTable.qkrFixedWidth th a:hover {
       text-decoration: underline; }
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort {
-  border-bottom: 1px solid #3C6DF0; }
+  border-bottom: 1px solid #049FD9; }
   div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort #topics {
     padding: 28px 16px 0 46px !important;
     border: 1px solid transparent !important;
-    border-bottom: 1px solid #3C6DF0 !important; }
+    border-bottom: 1px solid #049FD9 !important; }
   div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a {
     padding: 8px 16px !important;
     border: 1px solid transparent !important;
@@ -1367,7 +1373,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort {
     div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a:hover, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a:focus {
       text-decoration: none !important;
       border-radius: 2px !important;
-      border-color: #3C6DF0 !important; }
+      border-color: #049FD9 !important; }
     div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a:hover {
       background-color: #3C6DF0 !important;
       color: #FFFFFF !important; }
@@ -1383,7 +1389,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort {
       div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a.lotusAscending:hover {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M1.4,7.5L6,2.8l4.6,4.7L12,6.1L6,0L0,6.1L1.4,7.5z%22/%3E%3C/svg%3E") !important; }
   div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort tr.lotusFirst {
-    border-top: 1px solid #3C6DF0 !important; }
+    border-top: 1px solid #049FD9 !important; }
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:nth-child(even):not(.normalTopic):not(.lotusMore) th, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:nth-child(even):not(.normalTopic):not(.lotusMore) td {
   background-color: #F3F3F3; }
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr th, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr td {
@@ -1423,7 +1429,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
 .blog.admin .blogsFixedTable th, .blog.admin .blogsFixedTable th a, .blog.admin .blogsFixedTable tr.lotusSort #topics, .blog.admin .blogsFixedTable tr.lotusSort td a, .blog.admin .lotusTable th, .blog.admin .lotusTable th a, .blog.admin .lotusTable tr.lotusSort #topics, .blog.admin .lotusTable tr.lotusSort td a {
   font-size: 12px !important;
   font-weight: 500 !important;
-  color: #595859 !important; }
+  color: #58585B !important; }
   .blog.admin .blogsFixedTable th:lang(en), .blog.admin .blogsFixedTable th a:lang(en), .blog.admin .blogsFixedTable tr.lotusSort #topics:lang(en), .blog.admin .blogsFixedTable tr.lotusSort td a:lang(en), .blog.admin .lotusTable th:lang(en), .blog.admin .lotusTable th a:lang(en), .blog.admin .lotusTable tr.lotusSort #topics:lang(en), .blog.admin .lotusTable tr.lotusSort td a:lang(en) {
     text-transform: uppercase !important; }
 .blog.admin .blogsFixedTable th, .blog.admin .lotusTable th {
@@ -1433,11 +1439,11 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
     .blog.admin .blogsFixedTable th a:hover, .blog.admin .lotusTable th a:hover {
       text-decoration: underline; }
 .blog.admin .blogsFixedTable tr.lotusSort, .blog.admin .lotusTable tr.lotusSort {
-  border-bottom: 1px solid #3C6DF0; }
+  border-bottom: 1px solid #049FD9; }
   .blog.admin .blogsFixedTable tr.lotusSort #topics, .blog.admin .lotusTable tr.lotusSort #topics {
     padding: 28px 16px 0 46px !important;
     border: 1px solid transparent !important;
-    border-bottom: 1px solid #3C6DF0 !important; }
+    border-bottom: 1px solid #049FD9 !important; }
   .blog.admin .blogsFixedTable tr.lotusSort td a, .blog.admin .lotusTable tr.lotusSort td a {
     padding: 8px 16px !important;
     border: 1px solid transparent !important;
@@ -1445,7 +1451,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
     .blog.admin .blogsFixedTable tr.lotusSort td a:hover, .blog.admin .blogsFixedTable tr.lotusSort td a:focus, .blog.admin .lotusTable tr.lotusSort td a:hover, .blog.admin .lotusTable tr.lotusSort td a:focus {
       text-decoration: none !important;
       border-radius: 2px !important;
-      border-color: #3C6DF0 !important; }
+      border-color: #049FD9 !important; }
     .blog.admin .blogsFixedTable tr.lotusSort td a:hover, .blog.admin .lotusTable tr.lotusSort td a:hover {
       background-color: #3C6DF0 !important;
       color: #FFFFFF !important; }
@@ -1461,7 +1467,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
       .blog.admin .blogsFixedTable tr.lotusSort td a.lotusAscending:hover, .blog.admin .lotusTable tr.lotusSort td a.lotusAscending:hover {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M1.4,7.5L6,2.8l4.6,4.7L12,6.1L6,0L0,6.1L1.4,7.5z%22/%3E%3C/svg%3E") !important; }
   .blog.admin .blogsFixedTable tr.lotusSort tr.lotusFirst, .blog.admin .lotusTable tr.lotusSort tr.lotusFirst {
-    border-top: 1px solid #3C6DF0 !important; }
+    border-top: 1px solid #049FD9 !important; }
 .blog.admin .blogsFixedTable tr:nth-child(even):not(.normalTopic):not(.lotusMore) th, .blog.admin .blogsFixedTable tr:nth-child(even):not(.normalTopic):not(.lotusMore) td, .blog.admin .lotusTable tr:nth-child(even):not(.normalTopic):not(.lotusMore) th, .blog.admin .lotusTable tr:nth-child(even):not(.normalTopic):not(.lotusMore) td {
   background-color: #F3F3F3; }
 .blog.admin .blogsFixedTable tr th, .blog.admin .blogsFixedTable tr td, .blog.admin .lotusTable tr th, .blog.admin .lotusTable tr td {
@@ -1525,7 +1531,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
   .blog .lotusViewControl .lotusDetailsOff:focus,
   .blog .lotusViewControl .lotusSummaryOn:focus,
   .blog .lotusViewControl .lotusSummaryOff:focus {
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-width: 1px !important;
     outline-style: solid !important; }
 #qkrViewControl.lotusViewControl .lotusView.lotusTileOff,
@@ -1539,7 +1545,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
 #qkrViewControl.lotusViewControl .lotusSummaryOn, .blog .lotusViewControl .lotusTileOn,
 .blog .lotusViewControl .lotusDetailsOn,
 .blog .lotusViewControl .lotusSummaryOn {
-  border-bottom: 2px solid #3C6DF0 !important;
+  border-bottom: 2px solid #049FD9 !important;
   top: 0 !important;
   bottom: 0 !important; }
 #qkrViewControl.lotusViewControl .lotusTileOff,
@@ -1558,7 +1564,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
 #topicList .lotusTable th, #topicList .lotusTable th a, #topicList .lotusTable tr.lotusSort #topics, #topicList .lotusTable tr.lotusSort td a {
   font-size: 12px !important;
   font-weight: 500 !important;
-  color: #595859 !important; }
+  color: #58585B !important; }
   #topicList .lotusTable th:lang(en), #topicList .lotusTable th a:lang(en), #topicList .lotusTable tr.lotusSort #topics:lang(en), #topicList .lotusTable tr.lotusSort td a:lang(en) {
     text-transform: uppercase !important; }
 #topicList .lotusTable th {
@@ -1568,11 +1574,11 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
     #topicList .lotusTable th a:hover {
       text-decoration: underline; }
 #topicList .lotusTable tr.lotusSort {
-  border-bottom: 1px solid #3C6DF0; }
+  border-bottom: 1px solid #049FD9; }
   #topicList .lotusTable tr.lotusSort #topics {
     padding: 28px 16px 0 46px !important;
     border: 1px solid transparent !important;
-    border-bottom: 1px solid #3C6DF0 !important; }
+    border-bottom: 1px solid #049FD9 !important; }
   #topicList .lotusTable tr.lotusSort td a {
     padding: 8px 16px !important;
     border: 1px solid transparent !important;
@@ -1580,7 +1586,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
     #topicList .lotusTable tr.lotusSort td a:hover, #topicList .lotusTable tr.lotusSort td a:focus {
       text-decoration: none !important;
       border-radius: 2px !important;
-      border-color: #3C6DF0 !important; }
+      border-color: #049FD9 !important; }
     #topicList .lotusTable tr.lotusSort td a:hover {
       background-color: #3C6DF0 !important;
       color: #FFFFFF !important; }
@@ -1596,7 +1602,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
       #topicList .lotusTable tr.lotusSort td a.lotusAscending:hover {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M1.4,7.5L6,2.8l4.6,4.7L12,6.1L6,0L0,6.1L1.4,7.5z%22/%3E%3C/svg%3E") !important; }
   #topicList .lotusTable tr.lotusSort tr.lotusFirst {
-    border-top: 1px solid #3C6DF0 !important; }
+    border-top: 1px solid #049FD9 !important; }
 #topicList .lotusTable tr:nth-child(even):not(.normalTopic):not(.lotusMore) th, #topicList .lotusTable tr:nth-child(even):not(.normalTopic):not(.lotusMore) td {
   background-color: #F3F3F3; }
 #topicList .lotusTable tr th, #topicList .lotusTable tr td {
@@ -1629,7 +1635,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
   background-color: #F3F3F3; }
 
 .lotusui30 .lotusFlyout .lotusFlyoutHeader {
-  background-color: #1D3458;
+  background-color: #049FD9;
   padding: .5rem .5rem 0.275rem; }
   .lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner .vcard a {
     color: #FFFFFF !important; }
@@ -1639,12 +1645,12 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
   width: 0;
   height: 0;
   border: .5rem solid transparent;
-  border-right: 0.5rem solid #1D3458;
+  border-right: 0.5rem solid #049FD9;
   margin: -1rem 0 0 -1.15rem; }
 
 label {
   font-weight: 500 !important;
-  color: #595859 !important; }
+  color: #58585B !important; }
 
 :not([id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"]) .lotusFormFieldRow td {
   display: block !important;
@@ -1663,7 +1669,7 @@ label {
 
 #newCommunityForm .lotusFormTitle h2 label {
   font-weight: 300 !important;
-  color: #595859 !important;
+  color: #58585B !important;
   line-height: 1.25;
   letter-spacing: .5px; }
 #newCommunityForm #addCommunityName, #newCommunityForm #autocompletetags {
@@ -1760,14 +1766,14 @@ li.addressFormLi .addressFormField .addressFormInput {
     width: auto !important;
     min-width: 50% !important;
     max-width: 100% !important;
-    color: #595859 !important; }
+    color: #58585B !important; }
     .profileDataTable .dijitComboBox.lotusIndent10 .dijitInputField.dijitInputContainer .dijitInputInner {
       border-bottom: 1px solid #d8d8d8 !important;
       padding: .75rem 2.75rem .75rem 0 !important;
       box-sizing: border-box; }
       .profileDataTable .dijitComboBox.lotusIndent10 .dijitInputField.dijitInputContainer .dijitInputInner:focus {
-        border-color: #3C6DF0 !important;
-        box-shadow: 0 1px 0 #3C6DF0 !important;
+        border-color: #007FAB !important;
+        box-shadow: 0 1px 0 #007FAB !important;
         outline: none !important; }
 
 .ics-viewer-open .ics-dialog-action {
@@ -1779,7 +1785,7 @@ li.addressFormLi .addressFormField .addressFormInput {
   font-weight: 500 !important;
   font-size: 0.75rem !important;
   margin-bottom: 4px !important;
-  color: #595859 !important; }
+  color: #58585B !important; }
   .lotusDialogContent .lotusFormFieldRow .lotusFormLabel label, .lotusDialogContent .lotusFormFieldRow .lotusFormLabel span {
     font-weight: inherit !important;
     font-size: inherit !important;
@@ -1792,7 +1798,7 @@ li.addressFormLi .addressFormField .addressFormInput {
 #footer > .lotusFooter > ul > li > a,
 .meetingBody .lotusFooter a {
   font-weight: 400 !important;
-  color: #595859 !important; }
+  color: #58585B !important; }
 
 .lotusFeeds a {
   font-weight: 400 !important; }
@@ -1816,7 +1822,7 @@ div.hopscotch-bubble {
         line-height: 1.4; }
     div.hopscotch-bubble .hopscotch-bubble-container .hopscotch-actions {
       background-color: #1D3458;
-      background: linear-gradient(to bottom right, #3C6DF0, #2E3F8F);
+      background: linear-gradient(to bottom right, #007FAB, #2E3F8F);
       border: 1px solid #1D3458;
       position: absolute;
       bottom: 0;
@@ -1863,16 +1869,15 @@ div.hopscotch-bubble {
   .lotusRightCorner {
     max-width: 100% !important; } }
 a {
-  color: #3C6DF0 !important;
+  color: #007FAB !important;
   -webkit-font-smoothing: antialiased !important;
   font-weight: bold !important;
   transition: color 250ms ease, text-decoration 250ms ease !important;
   text-decoration: none !important; }
   a:visited {
-    color: #3C6DF0 !important; }
+    color: #007FAB !important; }
   a:active, a:hover, a:focus {
-    text-decoration-line: underline !important;
-    text-decoration-color: currentColor !important;
+    color: #049FD9 !important;
     outline: none !important; }
 
 [id^="section_"] > ul > li > a,
@@ -2091,7 +2096,7 @@ div.lotusPostIndicator a:focus {
 .lotusui30 .lotusMessage2, .lotusMessage, .lotusMessage.lotusMeta,
 .template-homepage .alert-container {
   border-radius: 20px !important;
-  border: 2px solid rgba(119, 118, 119, 0.3) !important;
+  border: 2px solid rgba(88, 88, 91, 0.3) !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1) !important;
   background-color: #FFFFFF !important;
   padding: 0rem 0.5rem !important; }
@@ -2267,23 +2272,24 @@ div[dojoattachpoint="streamNode"] {
   white-space: nowrap !important;
   padding: 9px 20px !important;
   font-weight: 500 !important;
-  background-color: #3C6DF0 !important;
-  border-color: #3C6DF0 !important;
+  background-color: #049FD9 !important;
+  border-color: #049FD9 !important;
   color: #FFFFFF !important; }
   #lconn_btn_browse_files:hover, #lconn_btn_browse_files:active {
     text-decoration: none !important;
     outline: none; }
   #lconn_btn_browse_files:focus {
-    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
   .dj_a11y #lconn_btn_browse_files:focus, .dijit_a11y #lconn_btn_browse_files:focus {
     box-shadow: none !important;
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
   #lconn_btn_browse_files:active, #lconn_btn_browse_files:hover {
-    background-color: #FFFFFF !important;
-    color: #3C6DF0 !important;
-    border-color: #3C6DF0 !important; }
+    background-color: #007FAB !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
 
 .lotusDialogHeader .lotusHeading,
 .dijitDialogTitleBar span,
@@ -2336,8 +2342,8 @@ form.lotusDialog.lotusForm .lconnPickerSourceArea > div {
     [id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content"] .headerSelector:focus,
     [id^="lconn_share_widget_TreeWithBreadcrumb_"][id$="_containerNode"] .headerSelector:focus {
       outline: none !important;
-      border-top: 1px solid #3C6DF0 !important;
-      border-bottom: 1px solid #3C6DF0 !important; }
+      border-top: 1px solid #049FD9 !important;
+      border-bottom: 1px solid #049FD9 !important; }
 
 [id^="lconn_files_widget_UploadFile_"] {
   display: inline-block !important; }
@@ -2376,7 +2382,7 @@ form.lotusDialog.lotusForm .lconnPickerSourceArea > div {
   background: #FFFFFF !important;
   box-shadow: none !important; }
 .sc .slideDialog .scImport .sourceIconHover {
-  outline: 1px solid #3C6DF0; }
+  outline: 1px solid #007FAB; }
 .sc .slideDialog .dialogPanel {
   color: #000000 !important; }
 .sc .slideDialog #dialogPanel_5 .lotusLoading,
@@ -2473,19 +2479,19 @@ div[id^="lconn_share_widget_Dialog_"] .lotusDialog .BrowseGroups {
     background-size: 20px 20px !important; }
 
 .ics-scbanner {
-  background-color: #1D3458 !important; }
+  background-color: #049FD9 !important; }
   .ics-scbanner div, .ics-scbanner a {
     -webkit-font-smoothing: antialiased !important; }
   .ics-scbanner .navsimplelist > li a:focus {
-    border-bottom: 0.0625rem solid #3C6DF0 !important;
-    border-top: 0.0625rem solid #3C6DF0 !important; }
+    border-bottom: 0.0625rem solid #007FAB !important;
+    border-top: 0.0625rem solid #007FAB !important; }
   .ics-scbanner .navsimplelist > li a.selected {
-    border-left: 4px solid #3C6DF0 !important; }
+    border-left: 4px solid #007FAB !important; }
 
 .ics-scbanner > a:hover::after,
 .ics-scbanner > button:hover::after,
 .ics-scbanner > .navmenu:hover::after {
-  border-bottom: 0.125rem solid #40D5BB !important; }
+  border-bottom: 0.125rem solid #FFFFFF !important; }
 
 .ics-scbanner .user .avatar {
   height: 1.75rem !important;
@@ -2509,8 +2515,8 @@ div[id^="lconn_share_widget_Dialog_"] .lotusDialog .BrowseGroups {
 
 .icSearchPaneButton {
   border-radius: 50% !important;
-  background-color: #3C6DF0 !important;
-  border: 1px solid #3C6DF0 !important;
+  background-color: #049FD9 !important;
+  border: 1px solid #049FD9 !important;
   outline: none !important;
   right: 23px !important;
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2) !important; }
@@ -2525,7 +2531,7 @@ div[id^="lconn_share_widget_Dialog_"] .lotusDialog .BrowseGroups {
       display: none; }
   .icSearchPaneButton:hover, .icSearchPaneButton.icSearchFocused {
     border-color: #3C6DF0 !important;
-    background-color: #FFFFFF !important;
+    background-color: #007FAB !important;
     cursor: pointer !important; }
     .icSearchPaneButton:hover a, .icSearchPaneButton.icSearchFocused a {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%233C6DF0%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E"); }
@@ -2565,14 +2571,14 @@ div[id^="lconn_share_widget_Dialog_"] .lotusDialog .BrowseGroups {
     border-color: #3C6DF0 !important;
     box-shadow: 0 1px 0 #3C6DF0 !important; }
 .icSearchBar .dijitTextBoxFocused {
-  box-shadow: 0 1px 0 #3C6DF0 !important;
+  box-shadow: 0 1px 0 #007FAB !important;
   outline: none !important;
-  border-bottom: 1px solid #3C6DF0 !important; }
+  border-bottom: 1px solid #007FAB !important; }
 
 .search-history-view-ui .icSearchPane .pfEntry:hover, .search-history-view-ui .icSearchPane .pfEntry.spSelected {
-  border-color: #3C6DF0 !important; }
+  border-color: #007FAB !important; }
   .search-history-view-ui .icSearchPane .pfEntry:hover .lconn_gray, .search-history-view-ui .icSearchPane .pfEntry.spSelected .lconn_gray {
-    color: #595859 !important; }
+    color: #58585B !important; }
 
 select {
   font-size: 12.8px !important;
@@ -2663,19 +2669,19 @@ select[id^="compactpicker_select_"] {
     .lotusTabContainer .lotusTabs li + li {
       margin-left: 1rem !important; }
     .lotusTabContainer .lotusTabs li.lotusSelected {
-      border-bottom: 4px solid #3C6DF0 !important; }
+      border-bottom: 4px solid #049FD9 !important; }
       .lotusTabContainer .lotusTabs li.lotusSelected a {
         color: #000000 !important; }
         .lotusTabContainer .lotusTabs li.lotusSelected a:hover {
           color: #FFFFFF !important;
-          background-color: #3C6DF0 !important;
-          border-color: #3C6DF0 !important;
+          background-color: #049FD9 !important;
+          border-color: #049FD9 !important;
           font-weight: 500 !important;
           text-decoration: none !important; }
         .lotusTabContainer .lotusTabs li.lotusSelected a:focus {
           color: #000000 !important;
           background-color: transparent !important;
-          border-color: #3C6DF0 !important; }
+          border-color: #049FD9 !important; }
         .lotusTabContainer .lotusTabs li.lotusSelected a:active, .lotusTabContainer .lotusTabs li.lotusSelected a:focus {
           text-decoration: none !important; }
       .lotusTabContainer .lotusTabs li.lotusSelected #about_link:focus,
@@ -2687,24 +2693,24 @@ select[id^="compactpicker_select_"] {
       .lotusTabContainer .lotusTabs li:focus a {
         color: #000000 !important;
         background-color: transparent !important;
-        border: 1px solid #3C6DF0 !important; }
+        border: 1px solid #049FD9 !important; }
     .lotusTabContainer .lotusTabs li a {
       padding: 0.5rem 1rem !important;
       margin: 0 !important;
       font-size: inherit !important;
-      color: #595859 !important;
+      color: #58585B !important;
       border-radius: 2px !important;
       border: 1px solid transparent !important;
       font-weight: 500 !important; }
       .lotusTabContainer .lotusTabs li a:hover {
         color: #FFFFFF !important;
-        background-color: #3C6DF0 !important;
-        border-color: #3C6DF0 !important;
+        background-color: #049FD9 !important;
+        border-color: #049FD9 !important;
         font-weight: 500 !important; }
       .lotusTabContainer .lotusTabs li a:focus {
         color: #000000 !important;
         background-color: transparent !important;
-        border-color: #3C6DF0 !important; }
+        border-color: #049FD9 !important; }
 
 div[id^="lconn_share_widget_Dialog_"] .switchPane {
   margin-bottom: 1rem !important; }
@@ -2740,7 +2746,7 @@ div[id^="lconn_share_widget_Dialog_"] .switchContainer {
     padding: 0.5rem 1rem 0.5rem 2.25rem !important;
     margin: 0 !important;
     font-size: inherit !important;
-    color: #595859 !important;
+    color: #58585B !important;
     border-radius: 2px;
     border: 1px solid transparent !important;
     font-weight: 500 !important;
@@ -2749,30 +2755,30 @@ div[id^="lconn_share_widget_Dialog_"] .switchContainer {
       color: inherit !important; }
     div[id^="lconn_share_widget_Dialog_"] .switchContainer .lconnPickerSourceToCheck .lconnPickerSourceLabel:hover {
       color: #FFFFFF !important;
-      background-color: #3C6DF0 !important;
-      border-color: #3C6DF0 !important;
+      background-color: #049FD9 !important;
+      border-color: #049FD9 !important;
       font-weight: 500 !important; }
     div[id^="lconn_share_widget_Dialog_"] .switchContainer .lconnPickerSourceToCheck .lconnPickerSourceLabel:focus {
       color: #000000 !important;
       background-color: transparent !important;
-      border-color: #3C6DF0 !important;
+      border-color: #049FD9 !important;
       outline: none !important; }
     div[id^="lconn_share_widget_Dialog_"] .switchContainer .lconnPickerSourceToCheck .lconnPickerSourceLabel img {
       left: .75rem;
       position: absolute; }
   div[id^="lconn_share_widget_Dialog_"] .switchContainer .pickerSourceChecked {
-    border-bottom: 4px solid #3C6DF0 !important; }
+    border-bottom: 4px solid #049FD9 !important; }
     div[id^="lconn_share_widget_Dialog_"] .switchContainer .pickerSourceChecked .lconnPickerSourceLabel {
       color: #000000 !important; }
       div[id^="lconn_share_widget_Dialog_"] .switchContainer .pickerSourceChecked .lconnPickerSourceLabel:hover {
         color: #FFFFFF !important;
-        background-color: #3C6DF0 !important;
-        border-color: #3C6DF0 !important;
+        background-color: #049FD9 !important;
+        border-color: #049FD9 !important;
         font-weight: 500 !important; }
       div[id^="lconn_share_widget_Dialog_"] .switchContainer .pickerSourceChecked .lconnPickerSourceLabel:focus {
         color: #000000 !important;
         background-color: transparent !important;
-        border-color: #3C6DF0 !important; }
+        border-color: #049FD9 !important; }
 
 #socialTags #tagsYouAddedList_div, #socialTags #tagsListTags_div {
   max-height: 12.75rem;
@@ -3318,7 +3324,7 @@ input.lotusText.scTagTypeahead {
   .lotusContent .lotusTags.lotusMeta li.lotusTag a.bidiAware:hover,
   .lotusContent .lotusTags span[role="listitem"] a.bidiAware:hover,
   .lotusContent .lotusTags li.lotusTag a.bidiAware:hover {
-    color: #3C6DF0 !important; }
+    color: #007FAB !important; }
   .lotusContent .lotusTags.lotusMeta span[role="listitem"] a[role="button"],
   .lotusContent .lotusTags.lotusMeta span[role="listitem"] a.qkrRemove,
   .lotusContent .lotusTags.lotusMeta li.lotusTag a[role="button"],
@@ -3427,7 +3433,7 @@ input.lotusText.scTagTypeahead {
   overflow: visible !important;
   position: relative; }
   .lotusContent form#entryform .lotusTags span[role="listitem"] a, .lotusContent form#entryform .lotusTags span[role="listitem"] a:hover, .lotusContent form#entryform .lotusTags span[role="listitem"] a:focus {
-    color: #595859 !important; }
+    color: #58585B !important; }
   .lotusContent form#entryform .lotusTags span[role="listitem"]:after {
     content: '';
     display: block;
@@ -3899,7 +3905,7 @@ a[class*="_help_link"]:focus img,
   .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuPreviousButton,
   .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuNextButton {
     font-style: normal !important;
-    color: #3C6DF0 !important;
+    color: #007FAB !important;
     font-weight: 500 !important; }
   .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuItem {
     border: none !important;
@@ -3910,7 +3916,7 @@ a[class*="_help_link"]:focus img,
       font-weight: 500 !important; }
     .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuItem b {
       font-weight: inherit !important;
-      color: #3C6DF0 !important; }
+      color: #007FAB !important; }
     .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuItem .bhcBizCardFloat {
       padding: 0 .75rem 0 0 !important; }
       .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuItem .bhcBizCardFloat + .bhcBizCardText {
@@ -3925,7 +3931,7 @@ a[class*="_help_link"]:focus img,
         font-size: 0.825rem;
         color: #000000 !important; }
       .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuItem .bhcBizCardText .bhcBizCardEllipsis + .bhcBizCardEllipsis {
-        color: #595859 !important; }
+        color: #58585B !important; }
 
 div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
   max-width: 17rem !important;
@@ -3948,7 +3954,7 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
   margin: 0 0 0 1rem !important; }
   #bizCardNavMenu li a {
     margin: 0 !important;
-    color: #595859 !important;
+    color: #58585B !important;
     padding: 0.5rem !important;
     border: 1px solid transparent !important;
     border-radius: 2px !important;
@@ -3961,27 +3967,27 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E"); }
     #bizCardNavMenu li a:hover {
       color: #FFFFFF !important;
-      background-color: #3C6DF0 !important;
-      border-color: #3C6DF0 !important;
+      background-color: #049FD9 !important;
+      border-color: #049FD9 !important;
       text-decoration: none !important; }
       #bizCardNavMenu li a:hover .tabNavItemInline img#moreButtonArrow {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E"); }
     #bizCardNavMenu li a:focus {
       color: #000000 !important;
-      border-color: #3C6DF0 !important; }
+      border-color: #049FD9 !important; }
   #bizCardNavMenu li:focus {
     box-shadow: none !important;
     border: none !important;
     outline: none !important; }
     #bizCardNavMenu li:focus a {
       color: #000000 !important;
-      border-color: #3C6DF0 !important; }
+      border-color: #049FD9 !important; }
   #bizCardNavMenu li a:hover {
     color: #FFFFFF !important; }
   #bizCardNavMenu li.lotusSelected {
-    border-color: #3C6DF0 !important; }
+    border-color: #049FD9 !important; }
     #bizCardNavMenu li.lotusSelected:focus {
-      border-bottom: 4px solid #3C6DF0 !important; }
+      border-bottom: 4px solid #049FD9 !important; }
 
 .tabNavBar {
   padding-bottom: 23px !important; }
@@ -4000,7 +4006,7 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
 
 #body.lotusui.lotusui30dojo .dijitMenuPopup .dijitMenuItemSelected .dijitMenuItemIconCell,
 .blog.lotusui.lotusui30dojo .dijitMenuPopup .dijitMenuItemSelected .dijitMenuItemIconCell {
-  border-color: #3C6DF0 !important; }
+  border-color: #049FD9 !important; }
 
 #body #lotusMain,
 #dropdownNavMenu,
@@ -4019,11 +4025,11 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     border-top: 1px solid transparent !important;
     border-left: 1px solid transparent !important;
     border-right: 1px solid transparent !important;
-    border-bottom: 4px solid #3C6DF0 !important; }
+    border-bottom: 4px solid #049FD9 !important; }
     #lotusMain #dropdownNavMenuContainer #dropdownNavMenuTitle #dropdownNavMenuTitleLinkAnc:focus {
-      border-top: 1px solid #3C6DF0 !important;
-      border-left: 1px solid #3C6DF0 !important;
-      border-right: 1px solid #3C6DF0 !important;
+      border-top: 1px solid #049FD9 !important;
+      border-left: 1px solid #049FD9 !important;
+      border-right: 1px solid #049FD9 !important;
       border-radius: 2px;
       outline: none !important; }
   #lotusMain #dropdownNavMenuContainer #dropdownNavMenu {
@@ -4039,13 +4045,13 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
         color: #000000 !important; }
     #lotusMain #dropdownNavMenuContainer #bizCardNavMenu li a:focus, #lotusMain #dropdownNavMenuContainer #bizCardNavMenu li.lotusSelected a:focus {
       background-color: transparent !important;
-      border-color: #3C6DF0 !important;
+      border-color: #049FD9 !important;
       color: #000000 !important;
       text-decoration: none !important; }
     #lotusMain #dropdownNavMenuContainer #bizCardNavMenu li a:hover, #lotusMain #dropdownNavMenuContainer #bizCardNavMenu li.lotusSelected a:hover {
       color: #FFFFFF !important;
-      background-color: #3C6DF0 !important;
-      border-color: #3C6DF0 !important;
+      background-color: #049FD9 !important;
+      border-color: #049FD9 !important;
       text-decoration: none !important; }
 
 #dropdownSubMenuContainer {
@@ -4064,7 +4070,7 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     border-right: 1px solid transparent !important;
     border-bottom: 1px solid #d8d8d8 !important; }
     #dropdownSubMenuContainer #dropdownSubMenuTitle #dropdownSubMenuTitleLinkAnc:focus {
-      border: 1px solid #3C6DF0 !important;
+      border: 1px solid #049FD9 !important;
       border-radius: 2px;
       outline: none !important; }
   #dropdownSubMenuContainer #dropdownSubMenu {
@@ -4077,7 +4083,7 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
       #dropdownSubMenuContainer #dropdownSubMenu li a {
         border: 1px solid transparent !important;
         border-radius: 2px;
-        color: #595859 !important;
+        color: #58585B !important;
         padding: 0.5rem !important;
         overflow: hidden;
         white-space: nowrap;
@@ -4085,17 +4091,17 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
       #dropdownSubMenuContainer #dropdownSubMenu li.lotusSelected a {
         background-color: transparent !important;
         color: #000000 !important;
-        border-color: #3C6DF0 !important;
+        border-color: #049FD9 !important;
         text-decoration: none !important; }
       #dropdownSubMenuContainer #dropdownSubMenu li a:focus, #dropdownSubMenuContainer #dropdownSubMenu li.lotusSelected a:focus {
         background-color: transparent !important;
-        border-color: #3C6DF0 !important;
+        border-color: #049FD9 !important;
         color: #000000 !important;
         text-decoration: none !important; }
       #dropdownSubMenuContainer #dropdownSubMenu li a:hover, #dropdownSubMenuContainer #dropdownSubMenu li.lotusSelected a:hover {
         color: #FFFFFF !important;
-        background-color: #3C6DF0 !important;
-        border-color: #3C6DF0 !important;
+        background-color: #049FD9 !important;
+        border-color: #049FD9 !important;
         text-decoration: none !important; }
 
 #body .lconnPickerSourceArea .headerSelector .checkbox {
@@ -4237,7 +4243,7 @@ div[id^="lconn_files_widget_CompactFilePicker"] {
     .lotusMain #lotusColLeft .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter) > div #allPagesList li + li a.dijitTreeRowSelected,
     .lotusMain #lotusColLeft .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter) > div #allPagesList li + li div.dijitTreeRow.dijitTreeRowSelected {
       border: none !important;
-      border-left: 4px solid #3C6DF0 !important;
+      border-left: 4px solid #007FAB !important;
       padding-left: calc((15px + 24px) - 4px) !important;
       font-weight: 700 !important; }
   .lotusMain #lotusColLeft .lotusMenuSection > ul > li.dijitTreeNodeEXPANDED .dijitTreeRow + div > .dijitTreeNode > .dijitTreeRow, .lotusMain #lotusColLeft .lotusMenuSection > ul > li.dijitTreeNodeNotLoaded .dijitTreeRow + div > .dijitTreeNode > .dijitTreeRow,
@@ -4679,7 +4685,7 @@ div[id^="lconn_files_widget_CompactFilePicker"] {
     .lotusMain #lotusColLeft .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter) > div #allPagesList li + li.lotusSelected a,
     .lotusMain #lotusColLeft .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter) > div #allPagesList li + li:focus a {
       border: none !important;
-      border-left: 4px solid #3C6DF0 !important;
+      border-left: 4px solid #007FAB !important;
       padding-left: calc((15px + 24px) - 4px) !important;
       font-weight: 700 !important; }
       .lotusMain #lotusColLeft .lotusMenuSection > ul > li.lotusSelected a span, .lotusMain #lotusColLeft .lotusMenuSection > ul > li:focus a span,
@@ -5024,7 +5030,7 @@ div[id^="lconn_files_widget_CompactFilePicker"] {
     .lotusMain #lotusColLeft span.X-community-display-inline .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected {
       padding-left: calc(((15px + 24px) - 4px) + 21px) !important;
       transition: border 0.23s ease, padding 0.23s ease;
-      border-left: 4px solid #3C6DF0 !important; }
+      border-left: 4px solid #007FAB !important; }
       .lotusMain #lotusColLeft .lotusSection:not(#lconnTagCloudContent):not(#lconnTagCloudFilter) .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected a,
       .lotusMain #lotusColLeft .lotusMenuSection .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected a,
       .lotusMain #lotusColLeft #lotusSidenav.lotusMenu .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected a,
@@ -5268,7 +5274,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusDetails td .lotusTags
   font-size: 12px !important;
   font-weight: 500 !important; }
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusDetails td .lotusLike .lotusLikeDescription, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusDetails td .lotusTags span {
-  color: #595859; }
+  color: #58585B; }
 
 .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusMeta .lotusInlinelist .lotusFirst.lotusLeft {
   float: none;
@@ -5292,8 +5298,8 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusDetails td .lotusLike
   white-space: nowrap !important;
   padding: 9px 20px !important;
   font-weight: 500 !important;
-  background-color: #3C6DF0 !important;
-  border-color: #3C6DF0 !important;
+  background-color: #049FD9 !important;
+  border-color: #049FD9 !important;
   color: #FFFFFF !important;
   padding: 6px 16px !important;
   font-weight: 500 !important;
@@ -5302,16 +5308,17 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusDetails td .lotusLike
     text-decoration: none !important;
     outline: none; }
   .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form input[type="submit"]:focus {
-    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
   .dj_a11y .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form input[type="submit"]:focus, .dijit_a11y .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form input[type="submit"]:focus {
     box-shadow: none !important;
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
   .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form input[type="submit"]:active, .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form input[type="submit"]:hover {
-    background-color: #FFFFFF !important;
-    color: #3C6DF0 !important;
-    border-color: #3C6DF0 !important; }
+    background-color: #007FAB !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
 .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form a[role="button"] {
   border-radius: 2rem !important;
   border-width: 1px !important;
@@ -5329,8 +5336,8 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusDetails td .lotusLike
   padding: 9px 20px !important;
   font-weight: 500 !important;
   background-color: #FFFFFF !important;
-  border-color: #3C6DF0 !important;
-  color: #3C6DF0 !important;
+  border-color: #049FD9 !important;
+  color: #049FD9 !important;
   padding: 6px 16px !important;
   font-weight: 500 !important;
   font-size: 0.675rem !important; }
@@ -5338,16 +5345,17 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusDetails td .lotusLike
     text-decoration: none !important;
     outline: none; }
   .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form a[role="button"]:focus {
-    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #3C6DF0 !important;
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
   .dj_a11y .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form a[role="button"]:focus, .dijit_a11y .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form a[role="button"]:focus {
     box-shadow: none !important;
-    outline: 1px solid #3C6DF0 !important;
+    outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
   .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form a[role="button"]:active, .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusTags form a[role="button"]:hover {
-    background-color: #3C6DF0 !important;
+    background-color: #049FD9 !important;
     color: #FFFFFF !important;
-    border-color: #3C6DF0 !important; }
+    border-color: #FFFFFF !important;
+    outline: none !important; }
 .lconnWikis table.lotusTable.qkrFixedWidth tr .lotusMeta + .lotusTags > *:not(.lotusFormError) {
   margin-top: 1rem;
   vertical-align: text-bottom; }
@@ -5563,7 +5571,7 @@ div[id^="lconn_share0_widget_Dialog_"] form .lotusDialogContent._qkrDialogCompac
   min-width: 240px !important;
   background-color: #F3F3F3 !important;
   border: none !important;
-  border-bottom: 2px solid #3C6DF0 !important; }
+  border-bottom: 2px solid #049FD9 !important; }
 #comments .lconnRTE,
 #comments .lotusFormFooter {
   padding-left: 0 !important; }
@@ -5574,25 +5582,25 @@ div[id^="lconn_share0_widget_Dialog_"] form .lotusDialogContent._qkrDialogCompac
   min-width: 240px !important;
   background-color: #F3F3F3 !important;
   border: none !important;
-  border-bottom: 2px solid #3C6DF0 !important; }
+  border-bottom: 2px solid #049FD9 !important; }
 
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth .lotusSort th {
   padding: 0 !important;
   padding-bottom: 16px !important; }
   div#list .lotusTable.lotusFixedTable.qkrFixedWidth .lotusSort th a {
     padding: 0.5rem 1rem !important;
-    color: #595859 !important;
+    color: #58585B !important;
     border: 1px solid transparent;
     border-radius: 2px;
     transition: none !important; }
     div#list .lotusTable.lotusFixedTable.qkrFixedWidth .lotusSort th a:active, div#list .lotusTable.lotusFixedTable.qkrFixedWidth .lotusSort th a:focus {
-      border-color: #3C6DF0 !important;
+      border-color: #049FD9 !important;
       text-decoration: none !important; }
     div#list .lotusTable.lotusFixedTable.qkrFixedWidth .lotusSort th a:hover {
       cursor: pointer;
       text-decoration: none !important;
-      border-color: #3C6DF0 !important;
-      background-color: #3C6DF0 !important;
+      border-color: #049FD9 !important;
+      background-color: #049FD9 !important;
       color: #FFFFFF !important; }
     div#list .lotusTable.lotusFixedTable.qkrFixedWidth .lotusSort th a.lotusActiveSort {
       padding-right: 1.5rem !important;
@@ -5608,12 +5616,12 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth .lotusSort th {
 
 #lotusMain .lotusSummaryOn,
 #lotusMain .lotusDetailsOn {
-  border-color: #3C6DF0 !important;
+  border-color: #049FD9 !important;
   border-top: 0px !important;
   border-bottom: 2px solid !important; }
   #lotusMain .lotusSummaryOn:focus,
   #lotusMain .lotusDetailsOn:focus {
-    outline: 1px solid #3C6DF0 !important; }
+    outline: 1px solid #049FD9 !important; }
 
 #lotusInfoBox {
   margin: 0 !important;

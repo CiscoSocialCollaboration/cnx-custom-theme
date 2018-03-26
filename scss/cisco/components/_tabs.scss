@@ -1,0 +1,379 @@
+//Additional Styles Written
+//Global Font (across all pages)
+*{
+  font-family: CiscoSans, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  //color: $color-gray-50 !important;
+}
+//Orient Me Fixes
+body {
+  margin-top: 0px !important;
+}
+.template-homepage .om-go-to-top-container .om-go-to-top-btn{
+  background-color: $brand-02 !important;
+}
+//Dropdowns: start
+ul[role="menu"]{
+  padding-top: 8px !important;
+  padding-bottom: 10px !important;
+  li{
+    color: $color-black !important;
+    padding-top: 5px !important;
+    height: 30px !important;
+    &:hover{
+      color: $brand-01 !important;
+    }
+  }
+  li a{
+    font-size: 15px !important;
+    padding-left: 12px !important;
+    padding-right: 16px !important;
+    height: 30px !important;
+    border-left: solid 4px $brand-03 !important;
+    &:hover{
+      color: $brand-01 !important;
+      border-left: solid 4px $brand-02 !important;
+      border-bottom: none !important;
+      border-top: none !important;
+    }
+  }
+}
+
+ul[role="menu"] > li > a.selected{
+  border-left: 4px $brand-02 !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+ul[role="menu"] > li > a::after:hover{
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.ics-scbanner .navsimplelist > li a:hover:before, .ics-scbanner .navsimplelist > li a:hover::after{
+  background-color: transparent !important;
+}
+
+
+table[role="menu"] td:first-child{
+  display: none !important;
+}
+
+
+table[role="menu"] td:nth-child(2){
+  color: $color-black !important;
+  height: 20px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: solid 4px $color-white !important;
+
+  &:hover{
+    color: $brand-01 !important;
+    border-left: solid 4px $brand-02 !important;
+    z-index: 3 !important;
+  }
+}
+
+.digitReset tr:hover, .digitMenuPopup tr:hover, .digitPopup tr:hover{
+  border-left: solid 4px $brand-02 !important;
+}
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .digitMenuItemFocused td.digitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+table#CommunitiesActionsMenuMain, table[id^="dijit_Menu_"], table[id$="moreActions"], table[role="menu"], .lotusui30 .dijitMenuPopup table.dijitMenuTable {
+  padding: 5px 0px 5px 0px !important;
+}
+/*
+#dijit_MenuItem_0_text, #dijit_MenuItem_1_text, #dijit_MenuItem_2_text, #dijit_MenuItem_3_text, #dijit_MenuItem_4_text{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+
+table#CommunitiesActionsMenuMain > tbody > tr > td, table#dijit_Menu_0 > tbody > tr > td {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+
+table#W50bf66350244_4bfe_81ce_957b386e6c55moreActions tbody > tr > td.dijitReset.dijitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+*/
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+.lotusui30dojo .loutsGlobalActionBarMenu .dijitMenuItem.dijitMenuItemFocused.dijitReset{
+  border-bottom: none !important;
+  border-top: none !important;
+}
+//Dropdowns: end
+
+//Activity Stream Tab (Homepage): start
+div#activityStreamMain .lotusLeft{
+  //margin-top: 16px !important;
+}
+
+span[id^="com_ibm_social_as_filter_FilterContainer_"] .lotusLeft {
+  margin-top: -10px !important;
+}
+
+.otherActivityStream14{
+  display: none;
+}
+
+.stream-finRight, .stream-finLeft{
+  display: none;
+}
+
+.lotusui30 .lotusPaging .lotusInlinelist li{
+  border-left: none !important;
+}
+
+.lotusPaging {
+  background-color: $color-white !important;
+}
+
+span.lotusLeft ul.lotusInlinelist > li > a{
+  color: $color-gray-50 !important;
+  font-size: $tab-font-size !important;
+  padding: 8px 16px 8px 16px !important
+}
+
+span.lotusLeft ul.lotusInlinelist > li > a:selected{
+  color: $brand-01 !important;
+}
+
+span.lotusLeft ul.lotusInlinelist > li > a:hover{
+  color: $brand-02 !important;
+}
+
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging{
+  border-bottom: solid 1px $color-gray-10 !important;
+}
+
+.lotusui30 .lotusContent .lotusStream .lotusWidgetBody#activityStreamMain .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected{
+  color: $brand-01 !important;
+  border-bottom: solid 4px $brand-02 !important;
+}
+
+#asSearchMenuOption > img{
+  display:none;
+}
+
+#asSearchMenuOption {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAAGzs1ytAAAABGdBTUEAALGPC/xhBQAAAn9JREFUOBGtVLtuE0EU3fUD7CayCx4VP+D0KCVG4hO2QkYyiy1EChLBVyAFkIiQHePConJDiYREUqZASpOYiioUEJCwpRS7YDubc2ZnljvLOkSCkWbn3nPPzH3NrONgdDqdY66/BaXpD6yR0+12axJcIEtar9e7adEMgAO/WIa0ojwShDDCfJoQcP6JUWCYU85VKpUlA1JX4Hg8jnOKLU+4uLEcf/v9/iWpJ/JgMLismHD2HuiNKIpWqtXqCEcyEh/yRc/zfiU7dJjXE0AIsEVCVdG9c133rgQXySqM4XB4Aa4DkFRqmsyMHpfL5SuNRuMbMSs7TbIWJhYEwVGxWIwTpFWX14d4iLC8Vqs1snZBcXUIP0HYQrXXEU4N8i5sO9hgt5l9Ma2WJ7F38n7QxoRyvu+zztZgzTGHEpTZS9wpFAofEY7VzoLFEMpsNtuAOhCQCmMTcVvXUufgt9vtR5Ks6gzyC4APjAHuQ8T7CauLiiwb/MwV1TjgPJMkjSTD8z6xv7abJG5AWOOErDvJCtzHXFRSPrKXuOfr1j0HmB7pYnzN5/O3sxrKjazofD5/DfEq5iYqu0o8a7jIk6/tIQq6hYq2skhpDOl2ke494M9w+FraTp0p87Y7vMhczzMEV+3N2sODD2ng68giZGGC+yHLTiyHEnhYT7DuZr2s9EZyyMUM8djvpO1GV83jjZhMJm9Rtzo28GfVg/yKfzwS9Vvn/8oHrvaANyqVSnXz6yFPjuS6GRB9qWEza3cL8xoOCKDz5u8hwufNZvMzf8jT6XQb2PIiB38cDPK5Bx3g9e/AMftzAMd1OP7OA/7pYBMBf7BhGG5LB//l4JSDN9B/nAJRYB05gw2c4AAAAABJRU5ErkJggg==');
+  background-position:right !important;
+	background-repeat:no-repeat !important;
+	margin-left:0px !important;
+	margin-right:10px !important;
+}
+//Activity Stream Tab (Homepage): end
+
+//My Activities Tabs: start
+.lotusNavTabs{
+  border-bottom: 1px solid $color-gray-10 !important;
+}
+
+.lotusNavTabs li{
+  a{
+    padding: 8px 16px 8px 16px !important
+  }
+  a > span{
+    color: $color-gray-50 !important;
+    text-transform: capitalize !important;
+    font-size: $tab-font-size !important;
+
+    &:hover{
+      color: $brand-01 !important;
+    }
+  }
+}
+
+.lotusNavTabs li.lotusSelected {
+  a > span {
+    color: $brand-01 !important;
+  }
+  a{
+    border-bottom: solid 4px $brand-02 !important;
+  }
+}
+//My Activities Tabs: end
+
+//Misc: start
+a[dojoattachpoint="feedLinkNode"]{ //For "Feed for these entries in Homepage"
+  margin-top: 15px !important;
+}
+.fileviewer-panels-textnav .ics-viewer ul.ics-viewer-tabs{
+  box-shadow: none !important;
+}
+.fileviewer-panels-textnav .ics-viewer ul.ics-viewer-tabs > li > a{
+  text-transform: capitalize !important;
+  padding-bottom: 13px !important;
+  font-size: 14px !important;
+}
+.fileviewer-panels-textnav .ics-viewer ul.ics-viewer-tabs > li.selected a { //File previewer
+    border-bottom: solid 4px $brand-02 !important;
+    color: $brand-02 !important;
+}
+
+//Communities Overview Tabs: start
+.lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
+  border-bottom: 4px solid $brand-02 !important;
+  a {
+    color: $brand-01 !important;
+    &:hover{
+      color: $brand-02 !important;
+    }
+  }
+}
+
+.lotusui30 .tabNavBar .lotusTabs li > a{
+  color: $color-gray-50 !important;
+  &:hover{
+    color: $brand-02 !important;
+  }
+}
+
+#editCommunityForm {
+  .lotusTabs li {
+  border-bottom: 4px solid $color-white !important;
+  &.lotusSelected {
+    border-bottom: 4px solid $brand-02 !important;
+  }
+  }
+}
+//Communities Overview Tabs: end
+
+//Comments: start
+/*div[id^="lconn_wikis_widget_CommentsMentions_"] > div > div.lotusPost{
+  background-color: $color-gray-1 !important;
+}*/
+
+div.lotusPost{
+  background-color: $color-gray-1 !important;
+}
+
+div#activityStream div[aria-label="Activity Stream"] div.lotusPost {
+  background-color: $color-white !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border-bottom: solid 1px #D2D2D2 !important;
+}
+
+div#activityStream div[aria-label="Activity Stream"] ul.lotusCommentList li.lotusCommentItem div.lotusPost {
+  background-color: $color-gray-1 !important;
+}
+
+div#activityStream div.filterAreaInner {
+  border-bottom: none !important;
+}
+
+div#activityStream div.filterArea {
+  border-bottom: solid 1px #D2D2D2 !important;
+}
+
+div.lotusPost.lotusPostForm {
+  background-color: $color-white !important;
+}
+
+div.ics-panel-entry.bidiAware.comment {
+  background-color: $color-gray-1 !important;
+}
+
+//Removing background color on hover
+.lotusTabContainer{
+  .lotusTabs li{
+    #about_link{
+      &:hover {
+        color: $brand-02 !important;
+      }
+    }
+    a {
+      &:hover {
+        background-color: $color-white !important;
+        color: $brand-02 !important;
+        border-color: $color-white !important;
+      }
+      &:focus {
+        background-color: $color-white !important;
+        color: $brand-02 !important;
+        border: $color-white  !important;
+      }
+    }
+    &.lotusSelected {
+      #about_link{
+        &:focus {
+          color: $brand-01 !important;
+        }
+      }
+      a {
+        color: $brand-01 !important;
+        &:hover {
+          background-color: $color-white !important;
+          color: $brand-01 !important;
+          border-color: $color-white !important;
+        }
+        &:focus {
+          background-color: $color-white !important;
+          color: $brand-01 !important;
+          border: $color-white  !important;
+        }
+      }
+    }
+  }
+}
+
+.communities-widget-appearance .lotusui30 .widgetContainer .lotusWidget2 .lotusTabs li.lotusSelected{
+  border-bottom: 4px solid $brand-02 !important;
+}
+
+.lotusTabContainer .lotusTabs li #about_link:hover, .lotusTabContainer .lotusTabs li #share_link:hover, .lotusTabContainer .lotusTabs li a._linkHolder.lotusLeft:hover{
+  color: $brand-02 !important;
+}
+
+.lotusTabContainer .lotusTabs li.lotusSelected #about_link:focus, .lotusTabContainer .lotusTabs li.lotusSelected #share_link:focus, .lotusTabContainer .lotusTabs li.lotusSelected a._linkHolder.lotusLeft:focus{
+  color: $brand-01 !important;
+}
+
+.lotusui.lotusui30dojo.lotusui30_body .lotusFrame .lotusWrapper{
+  z-index: 2 !important;
+}

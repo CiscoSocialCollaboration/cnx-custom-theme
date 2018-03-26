@@ -1,0 +1,61 @@
+//----MIXINS----//
+@mixin bx--link-default() {
+  @include link-color('brand01');
+
+  &:visited {
+    @include link-color('brand01');
+  }
+
+  &:active,
+  &:hover,
+  &:focus {
+    @include link-color('brand02');
+    outline: none !important;
+  }
+}
+
+@mixin link-color($color) {
+  @if       $color == inherit { color: inherit !important; }
+  @else if  $color == light   { color: $text-03 !important; }
+  @else if  $color == dark    { color: $text-01 !important; }
+  @else if  $color == brand01 { color: $brand-01 !important; }
+  @else                       { color: $brand-02 !important; }
+}
+
+@mixin global-notification-frame($flag) {
+  @if       $flag == false { margin-top: 112px !important; }
+  @else                { margin-top: 134px !important; }
+}
+
+@mixin global-notification-bar($flag) {
+  @if       $flag == false { top: 22px !important; }
+  @else                { top: 44px !important; }
+}
+
+// Add btnsecondary (Secondary) with btnbasics for a secondar button
+@mixin btnsecondary {
+  @include btnbasics;
+  background-color: $btn-secondary-fill !important;
+  border-color: $btn-secondary-outline !important;
+  color: $btn-secondary-text !important;
+  &:active, &:hover {
+    background-color: $btn-secondary-fill-hover !important;
+    color: $btn-secondary-text-hover !important;
+    border-color: $color-white !important;
+    outline: none !important;
+  }
+}
+
+// Add btnprimary mixin with btnbasics for a primary button
+@mixin btnprimary {
+  @include btnbasics;
+  background-color: $btn-primary-fill !important;
+  border-color: $btn-primary-outline !important;
+  color: $btn-primary-text !important;
+  &:active, &:hover {
+    background-color: $btn-primary-fill-hover !important;
+    color: $btn-primary-text-hover !important;
+    border-color: $color-white !important;
+    outline: none !important;
+  }
+}
