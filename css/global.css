@@ -21,6 +21,7 @@
 /* ------------------------------------------------- */
 /* ==from https://codepen.io/jakob-e/pen/doMoML       */
 /* ------------------------------------------------- */
+/*Cisco Configuration Variables*/
 /*Component Imports*/
 #notificationsMenu #headerPopupNode, #notificationsMenu .icBanner-popover-footer ul {
   padding: 18px 24px 18px 24px !important; }
@@ -9359,6 +9360,7 @@ body.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action:not(.ics-viewer-acti
 .lotusui30_layout .lotusColLeft:after {
   position: fixed !important; }
 
+/*Cisco Customization Imports*/
 /*#nav_bar_include{
   visibility: hidden;
 }*/

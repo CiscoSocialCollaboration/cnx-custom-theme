@@ -1,6 +1,3 @@
-//Global Notification
-$global-on: true;
-
 //----MIXINS----//
 @mixin bx--link-default() {
   @include link-color('brand01');
