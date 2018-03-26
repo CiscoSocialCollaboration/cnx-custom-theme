@@ -15,7 +15,7 @@
 */
 //
 var repoNameValue = getParams('periscope.js');
-//console.log('Repository name is ' + repoNameValue);
+// console.log('Repository name is ' + repoNameValue);
 
 function periscope(){
   //Instead of adding in code, all we need to change is the mapping object
@@ -103,6 +103,7 @@ function periscope(){
       }
     }
   });
+  ciscoMod(repoNameValue);
 }
 if (!String.prototype.includes) {
   String.prototype.includes = function() {

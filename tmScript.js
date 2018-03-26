@@ -6,6 +6,7 @@
 // @author       IBM Corporation
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @require      file:///YOURFILEPATHGOESHERE/cnx-custom-theme/periscope.js
+// @require      file:///YOURFILEPATHGOESHERE/cnx-custom-theme/cisco-mod.js
 // @resource     activities file:///YOURFILEPATHGOESHERE/cnx-custom-theme/css/activities.css
 // @resource     blogs file:///YOURFILEPATHGOESHERE/cnx-custom-theme/css/blogs.css
 // @resource     communities file:///YOURFILEPATHGOESHERE/cnx-custom-theme/css/communities.css
@@ -35,6 +36,7 @@
 // @match        https://apps.na.collabserv.com/search/*
 // @match        https://apps.na.collabserv.com/social/home*
 // @match        https://apps.na.collabserv.com/wikis/*
+// @match        https://apps.na.collabserv.com/homepage/web/*
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // ==/UserScript==
