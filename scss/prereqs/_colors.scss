@@ -1,11 +1,11 @@
 //**********COLORS**********
 // -----BRAND COLORS-----
 // Primary / active color used for buttons, links, and selection
-$brand-01: #007FAB; //Ultramarine 50 //Changed by Cisco
+$brand-01: #3C6DF0; //Ultramarine 50
 // Top navigation, headers in tours and pop outs, and hover on actions
-$brand-02: #049FD9; //Blue 80 //Changed by Cisco
+$brand-02: #1D3458; //Blue 80
 // Accent color used for selection on top navigation bar
-$brand-03: #FFFFFF; //Teal 20 //Changed by Cisco
+$brand-03: #40D5BB; //Teal 20
 $brand-04: #FF509E; //Magenta40
 // Accent used in gradients with $brand-01
 $brand-05: #2E3F8F; //Ultramarine 70
@@ -18,7 +18,7 @@ $color-black: #000000; //Black
 // Secondary text and text on gray background
 $color-gray-60: #595859; //Gray 60
 // Labels
-$color-gray-50: #58585B; //Gray 50 //Changed by Cisco
+$color-gray-50: #777677; //Gray 50
 // Disabled states
 $color-gray-30: #969696; //Gray 30
 // Primary divider lines / separators, for example between files
@@ -40,7 +40,7 @@ $error: #FF5C49; //Red 40
 
 // -----TEXT COLORS-----
 $text-01: $color-black; // Primary text color on all backgrounds
-$text-02: $color-gray-50; // Secondary text color
+$text-02: $color-gray-60; // Secondary text color
 $text-03: $color-white; // Light color on dark background
 
 // -----BACKGROUND COLORS-----
@@ -59,7 +59,7 @@ $background-table-header-hover: $brand-01; //Background color for hovering on ta
 $background-pinned-row: $brand-06; //Background color for pinned topics in list
 
 // -----BORDER COLORS-----
-$border-selected: $brand-02; // Selected, focus border color
+$border-selected: $brand-01; // Selected, focus border color
 $border-focus: $brand-01; // Used for focus styling
 $border-separator: $color-gray-10; // Used for separator lines
 $border-field: $color-gray-10; // Field border color
@@ -73,13 +73,13 @@ $checkbox-background-checked: $brand-01; // Checkbox background, checked
 
 // -----BUTTONS-----
 // Primary button - main call to action - Filled color button
-$btn-primary-fill: $brand-02; //Fill color
-$btn-primary-outline: $brand-02; //Outline color
+$btn-primary-fill: $brand-01; //Fill color
+$btn-primary-outline: $brand-01; //Outline color
 $btn-primary-text: $text-03; //Text color on filled button
 
-$btn-primary-fill-hover: $brand-01; //Hover fill color
+$btn-primary-fill-hover: $color-white; //Hover fill color
 $btn-primary-outline-hover: $brand-01; //Hover outline color
-$btn-primary-text-hover: $color-white; //Hover text color
+$btn-primary-text-hover: $brand-01; //Hover text color
 
 $btn-primary-fill-disabled: $disabled; //Disabled fill color
 $btn-primary-outline-disabled: $disabled; //Disabled fill color
@@ -87,11 +87,11 @@ $btn-primary-text-disabled: $text-03; //Disabled text color on filled button
 
 // Secondary button - secondary call to action - Outlined button
 $btn-secondary-fill: $color-white; //Fill color
-$btn-secondary-outline: $brand-02; //Outline color
-$btn-secondary-text: $brand-02; //Text color on outline button
+$btn-secondary-outline: $brand-01; //Outline color
+$btn-secondary-text: $brand-01; //Text color on outline button
 
-$btn-secondary-fill-hover: $brand-02; //Hover fill color
-$btn-secondary-outline-hover: $brand-02; //Hover outline color
+$btn-secondary-fill-hover: $brand-01; //Hover fill color
+$btn-secondary-outline-hover: $brand-01; //Hover outline color
 $btn-secondary-text-hover: $text-03; //Text on filled hover
 
 $btn-secondary-fill-disabled: $color-white; //Disabled fill color
