@@ -1,0 +1,9 @@
+html:not([lang="ar"]):not([lang*="zh"]):not([lang="el"]):not([lang="he"]):not([lang="ja"]):not([lang="ko"]):not([lang="ru"]):not([lang="th"])  {
+	&, h1, h2, h3, h4, h5, h6, p, a, button, textarea, input, span, div {
+    font-family: $cisco-fonts !important;
+	}
+}
+
+* {
+  font-family: $cisco-fonts !important;
+}

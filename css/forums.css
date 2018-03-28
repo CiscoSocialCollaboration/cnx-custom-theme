@@ -6170,7 +6170,7 @@ input[type="file"] {
     border-color: #049FD9 !important;
     color: #FFFFFF !important;
     padding: .575rem 1.15rem;
-    font-family: 'IBM Plex Sans', 'IBM Helvetica', 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif !important; }
+    font-family: CiscoSans, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; }
     .dj_webkit input[type="file"]::-webkit-file-upload-button:hover, .dj_webkit input[type="file"]::-webkit-file-upload-button:active {
       text-decoration: none !important;
       outline: none; }

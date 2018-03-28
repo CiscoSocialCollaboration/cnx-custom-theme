@@ -59,3 +59,15 @@
     outline: none !important;
   }
 }
+
+@mixin fileinput {
+	@include textinput;
+	cursor: pointer;
+	.dj_webkit &::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+	  @include btnprimary;
+		padding: .575rem 1.15rem;
+		font-family: $cisco-fonts !important;
+	}
+}
