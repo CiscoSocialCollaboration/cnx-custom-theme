@@ -1,0 +1,125 @@
+.app_palette_modal_header{
+	background-color: $brand-02 !important;
+}
+
+.app_palette_modal_tabs_ul{
+	padding-left: 0px !important;
+}
+
+#communityPalette{
+	border: none !important;
+	font-weight: normal !important;
+}
+
+.lotusDialogHeader,
+.importHeader {
+	background-color: $brand-02 !important;
+}
+
+.lotusDialogHeader {
+  padding: 15px 48px 15px 48px !important;
+}
+
+.lotusDialogHeader .lotusHeading{
+  color: $color-white !important;
+  font-size: 1.25em !important;
+}
+
+.lotusDialog.lotusForm {
+  border: none !important;
+}
+
+.lotusDialogBorder > .lotusDialog {
+	border: none !important;
+}
+
+a.lotusDialogClose {
+  color: $color-white !important;
+}
+
+.lotusLikeHeader {
+	background-color: $brand-02 !important;
+}
+
+.lotusDialogHeader h1.lotusHeading .dijitDialogTitle{
+	color: $color-white !important;
+  font-size: 1.25em !important;
+}
+
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabel{
+	border-bottom: solid 4px $brand-02 !important;
+}
+
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabelSpan{
+	color: $brand-01 !important;
+}
+
+.lconnPicker .tabbedSwitch .lconnPickerSourceLabelSpan{
+	color: $color-gray-50 !important;
+}
+
+.lconnPickerSourceToCheck > div:hover img.lconnPickerSourceLabelIconCloud{
+	background-image: url(/connections/resources/web/com.ibm.lconn.core.styles.oneui3/images/blank.gif?etag=20180213.201737) !important;
+}
+
+//RTE in Wikis
+.cke_dialog_body{
+	.cke_dialog_title{
+		background-color: $brand-02 !important;
+		line-height: 1 !important;
+	}
+	.cke_dialog_ui_hbox_first{
+		a{
+			@include btnprimary;
+			span{
+				color: $color-white !important;
+				font-family: $cisco-fonts !important;
+				text-shadow: none !important;
+			}
+		}
+	}
+	.cke_dialog_ui_hbox_last{
+		a{
+			@include btnsecondary;
+			span{
+				color: $brand-02 !important;
+				font-family: $cisco-fonts !important;
+				text-shadow: none !important;
+				&:hover{
+					color: $color-white !important;
+				}
+			}
+			&:hover span{
+				color: $color-white !important;
+			}
+		}
+	}
+}
+
+.cke_dialog_body .cke_dialog_ui_hbox_first a.cke_btn_locked, .cke_dialog_body .cke_dialog_ui_hbox_first a.cke_btn_reset, .cke_dialog_body .cke_dialog_ui_hbox_last a[id$="previewLink"]{
+	padding: 0px !important;
+	background-color: white !important;
+	border-color: white !important;
+}
+
+#insertImageDialogBottom{
+	margin-top: 0px !important;
+}
+
+//Add a file popup
+select[id^="compactpicker_select_"]{
+	padding-right: 0px !important;
+}
+
+.lotusDialogClose, .dijitDialogCloseIcon{
+	background-image: svg-url-with-replaced-fill($svg-close-12px, '#000000', $color-white)!important;
+}
+
+.lotusDialogClose:focus, .dijitDialogCloseIcon:focus{
+	outline: none !important;
+}
+
+//Likes popup in personal Files
+div[id^="com_ibm_oneui_controls_internal__MasterPopup_"] .lotusLikeLightBox .lotusLikeHeader{
+	background-color: $brand-02 !important;
+}

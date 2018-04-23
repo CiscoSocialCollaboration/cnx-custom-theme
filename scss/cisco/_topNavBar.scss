@@ -184,10 +184,10 @@ div#nav_bar_include a#ics-scbanner-home, div#nav_bar_include div#networkMenu_con
    padding: 0 10px !important;
  }
 
- td#dijit_MenuItem_82_text {
+/* td#dijit_MenuItem_82_text {
    display: none !important;
    visibility: hidden !important;
- }
+ }*/
 
 .hikari.ics-scbanner > a#ics-scbanner-home {
    font-weight: bold !important;
@@ -302,6 +302,11 @@ div#cisco_homeAnnouncement {
 div#lotusFrame, .lotusFrame{
   @include global-notification-frame($global-on);
 }
+/*
+body {
+  @include global-notification-frame($global-on);
+}
+*/
 
 #servicesMenu_container > svg {
   width: 10px !important;

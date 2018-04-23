@@ -1,0 +1,175 @@
+//Communities apps dropdown in leftnav
+div#dropdownNavMenuContainer div#dropdownNavMenu li, div#dropdownSubMenuContainer div#dropdownSubMenu li{
+  a:hover, a:focus{
+    background-color: $color-gray-10 !important;
+  }
+  &.lotusSelected, &:hover{
+    background-color: $color-gray-10 !important;
+    border-left: solid 4px $brand-02 !important;
+    margin-left: 0px !important;
+  }
+  &.lotusSelected{
+    a{
+      background-color: $color-gray-10 !important;
+      font-weight: bold !important;
+    }
+  }
+}
+
+#dropdownNavMenuTitleLink, #dropdownSubMenuTitleLink{
+  border-left: solid 4px $brand-02 !important;
+  a{
+    border: solid 1px $color-gray-10 !important;
+    font-weight: bold !important;
+  }
+}
+
+//Misc
+ul[role="menu"]{
+  padding-top: 8px !important;
+  padding-bottom: 10px !important;
+  li{
+    color: $color-black !important;
+    padding-top: 5px !important;
+    height: 30px !important;
+    &:hover{
+      color: $brand-01 !important;
+    }
+  }
+  li a{
+    font-size: 15px !important;
+    padding-left: 12px !important;
+    padding-right: 16px !important;
+    height: 30px !important;
+    border-left: solid 4px $brand-03 !important;
+    &:hover{
+      color: $brand-01 !important;
+      border-left: solid 4px $brand-02 !important;
+      border-bottom: none !important;
+      border-top: none !important;
+    }
+  }
+}
+
+ul[role="menu"] > li > a.selected{
+  border-left: 4px $brand-02 !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+ul[role="menu"] > li > a::after:hover{
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.ics-scbanner .navsimplelist > li a:hover:before, .ics-scbanner .navsimplelist > li a:hover::after{
+  background-color: transparent !important;
+}
+
+
+table[role="menu"] td:first-child{
+  display: none !important;
+}
+
+
+table[role="menu"] td:nth-child(2){
+  color: $color-black !important;
+  height: 20px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: solid 4px $color-white !important;
+
+  &:hover{
+    color: $brand-01 !important;
+    border-left: solid 4px $brand-02 !important;
+    z-index: 3 !important;
+  }
+}
+
+.digitReset tr:hover, .digitMenuPopup tr:hover, .digitPopup tr:hover{
+  border-left: solid 4px $brand-02 !important;
+}
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .digitMenuItemFocused td.digitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+table#CommunitiesActionsMenuMain, table[id^="dijit_Menu_"], table[id$="moreActions"], table[role="menu"], .lotusui30 .dijitMenuPopup table.dijitMenuTable {
+  padding: 5px 0px 5px 0px !important;
+}
+/*
+#dijit_MenuItem_0_text, #dijit_MenuItem_1_text, #dijit_MenuItem_2_text, #dijit_MenuItem_3_text, #dijit_MenuItem_4_text{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+
+table#CommunitiesActionsMenuMain > tbody > tr > td, table#dijit_Menu_0 > tbody > tr > td {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+
+table#W50bf66350244_4bfe_81ce_957b386e6c55moreActions tbody > tr > td.dijitReset.dijitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+*/
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important;
+}
+
+.lotusui30dojo .loutsGlobalActionBarMenu .dijitMenuItem.dijitMenuItemFocused.dijitReset{
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+//New button in files
+#body .dijitMenuItemFocused td.dijitReset{
+  border-color: $brand-02 !important;
+}
+
+.lotusui30dojo .lotusGlobalActionBarMenu .dijitMenuItem.dijitMenuItemFocused .dijitReset {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+//More dropdown in community apps
+#tabNavMoreBtn_dropdown{
+  top: 271px !important;
+}

@@ -2,3 +2,10 @@
 a {
   font-weight: normal !important;
 }
+//Name links (Link to Profile)
+a.lotusPerson, a:visited.lotusPerson, .vcard a.fn.url{
+  color: $brand-01 !important;
+  &:hover{
+    color: $brand-02 !important;
+  }
+}

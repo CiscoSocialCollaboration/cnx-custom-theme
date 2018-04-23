@@ -1,0 +1,4 @@
+//Hiding Remove option from apps tiles dropwdown in Communities
+tbody.dijitReset > tr[aria-label="Remove "]{
+	display: none !important;
+}
