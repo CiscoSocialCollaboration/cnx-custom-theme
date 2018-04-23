@@ -1324,12 +1324,12 @@ input[type=checkbox] {
 input[type=checkbox]:checked::after,
 .ic-thumb-widget-flip-card-is-checked .card-back .check,
 .ic-thumb-widget-flip-card-is-checked .card-front .check {
-  border-color: #3C6DF0 !important;
-  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 id=%22Layer_1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22	 viewBox=%220 0 12 12%22 style=%22enable-background:new 0 0 12 12;%22 xml:space=%22preserve%22%3E%3Cstyle type=%22text/css%22%3E	.st0{fill:%23FFFFFF;}	.st1{fill:%233C6DF0;}%3C/style%3E%3Crect class=%22st1%22 width=%2212%22 height=%2212%22/%3E%3Cpath class=%22st0%22 d=%22M4.4,7.6L2,5.1L0.7,6.5l3.7,3.7l6.8-6.8L10,2.1L4.4,7.6z%22/%3E%3C/svg%3E") !important;
+  border-color: #049FD9 !important;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 id=%22Layer_1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22	 viewBox=%220 0 12 12%22 style=%22enable-background:new 0 0 12 12;%22 xml:space=%22preserve%22%3E%3Cstyle type=%22text/css%22%3E	.st0{fill:%23FFFFFF;}	.st1{fill:%23049FD9;}%3C/style%3E%3Crect class=%22st1%22 width=%2212%22 height=%2212%22/%3E%3Cpath class=%22st0%22 d=%22M4.4,7.6L2,5.1L0.7,6.5l3.7,3.7l6.8-6.8L10,2.1L4.4,7.6z%22/%3E%3C/svg%3E") !important;
   transition: none !important; }
 
 input[type=checkbox]:checked:hover::after, input[type=checkbox]:checked:focus::after {
-  outline-color: #3C6DF0 !important; }
+  outline-color: #049FD9 !important; }
 
 tbody .lotusFirstCell {
   vertical-align: middle; }
@@ -1339,7 +1339,7 @@ tbody .lotusFirstCell {
 
 /*For Files Tile view quick fix put this code somewhere more relevant once its done*/
 .ic-thumb-widget-flip-card-is-checked .card-front, .ic-thumb-widget-flip-card-is-checked .card-back {
-  box-shadow: 0 0 0 2px #3C6DF0 !important; }
+  box-shadow: 0 0 0 2px #049FD9 !important; }
 
 .card-back .check {
   background-image: none !important; }
@@ -2409,8 +2409,8 @@ form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[t
   max-width: 240px; }
   form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[type="text"]:focus, form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[type="text"] .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] textarea {
   margin: .25rem 0 1rem 0 !important;
   max-width: 240px; }
@@ -2568,8 +2568,8 @@ div[id^="lconn_share_widget_Dialog_"] .lotusDialog .BrowseGroups {
   height: auto !important; }
   .icSearchBar .dijitTextBox:focus, .icSearchBar .dijitTextBox .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 .icSearchBar .dijitTextBoxFocused {
   box-shadow: 0 1px 0 #007FAB !important;
   outline: none !important;
@@ -2600,14 +2600,14 @@ select {
   background-repeat: no-repeat !important;
   height: auto !important; }
   select:focus {
-    border-bottom: 2px solid #3C6DF0 !important;
+    border-bottom: 2px solid #049FD9 !important;
     outline: none !important; }
   select[disabled] {
     cursor: not-allowed !important;
     color: #969696 !important; }
 
 .profileDataTable .dijitComboBox.lotusIndent10 .dijitInputField.dijitInputContainer [id^="dijit_form_ComboBox_"]:focus {
-  border-bottom: 2px solid #3C6DF0 !important; }
+  border-bottom: 2px solid #049FD9 !important; }
 
 [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"],
 [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"] {
@@ -2631,7 +2631,7 @@ select {
   height: auto !important; }
   [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"]:focus,
   [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"]:focus {
-    border-bottom: 2px solid #3C6DF0 !important;
+    border-bottom: 2px solid #049FD9 !important;
     outline: none !important; }
   [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"][disabled],
   [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"][disabled] {
@@ -3622,8 +3622,8 @@ textarea {
   box-sizing: border-box !important; }
   textarea:focus {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 [id^="widget_lconn_share_widget_MemberInput_"][id$="_people"],
 [id^="widget_lconn_share_widget_MemberInput_"][id$="_communities"],
@@ -3677,8 +3677,8 @@ input.lotusText,
   .dijitTextBox .typeaheadInput input:focus,
   .dijitTextBox .typeaheadInput input .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 .lotusFormLabel.lotusNowrap {
   vertical-align: middle !important; }
@@ -3713,8 +3713,8 @@ input.lotusText,
     padding-left: 2rem !important; }
     .lconn_directorySearchBox .lconn_searchBox input.dijitInputInner:focus, .lconn_directorySearchBox .lconn_searchBox input.dijitInputInner .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
 
 .sc .contactsSearch {
   border: 0; }
@@ -3736,8 +3736,8 @@ div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] 
     height: auto !important; }
     div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] input.lotusText:focus, div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] input.lotusText .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
 
 div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="myactions"] {
   margin: 1rem auto 2rem; }
@@ -3794,8 +3794,8 @@ div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchBar"] 
   height: 36px; }
   #socialTagName:focus, #socialTagName .dijitTextBoxFocused, #lconnTagWidgetcommonTagsTypeAhead:focus, #lconnTagWidgetcommonTagsTypeAhead .dijitTextBoxFocused, #contactsTagWidgetcommonTagsTypeAhead:focus, #contactsTagWidgetcommonTagsTypeAhead .dijitTextBoxFocused, [id^="lconnTagWidget_"][id$="commonTagsTypeAhead"]:focus, [id^="lconnTagWidget_"][id$="commonTagsTypeAhead"] .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] {
   line-height: 1.5 !important;
@@ -3810,8 +3810,8 @@ input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] {
   box-sizing: border-box !important; }
   input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"]:focus, input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 .lotusui30 .lconn_directoryPage .lconn_searchNode.fixed {
   background-color: #FFFFFF !important;
@@ -5223,17 +5223,17 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
   .ics-viewer input[type=checkbox]:checked::after,
   .ics-viewer .ic-thumb-widget-flip-card-is-checked .card-back .check,
   .ics-viewer .ic-thumb-widget-flip-card-is-checked .card-front .check {
-    border-color: #3C6DF0 !important;
-    background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 id=%22Layer_1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22	 viewBox=%220 0 12 12%22 style=%22enable-background:new 0 0 12 12;%22 xml:space=%22preserve%22%3E%3Cstyle type=%22text/css%22%3E	.st0{fill:%23FFFFFF;}	.st1{fill:%233C6DF0;}%3C/style%3E%3Crect class=%22st1%22 width=%2212%22 height=%2212%22/%3E%3Cpath class=%22st0%22 d=%22M4.4,7.6L2,5.1L0.7,6.5l3.7,3.7l6.8-6.8L10,2.1L4.4,7.6z%22/%3E%3C/svg%3E") !important;
+    border-color: #049FD9 !important;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 id=%22Layer_1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22	 viewBox=%220 0 12 12%22 style=%22enable-background:new 0 0 12 12;%22 xml:space=%22preserve%22%3E%3Cstyle type=%22text/css%22%3E	.st0{fill:%23FFFFFF;}	.st1{fill:%23049FD9;}%3C/style%3E%3Crect class=%22st1%22 width=%2212%22 height=%2212%22/%3E%3Cpath class=%22st0%22 d=%22M4.4,7.6L2,5.1L0.7,6.5l3.7,3.7l6.8-6.8L10,2.1L4.4,7.6z%22/%3E%3C/svg%3E") !important;
     transition: none !important; }
   .ics-viewer input[type=checkbox]:checked:hover::after, .ics-viewer input[type=checkbox]:checked:focus::after {
-    outline-color: #3C6DF0 !important; }
+    outline-color: #049FD9 !important; }
   .ics-viewer tbody .lotusFirstCell {
     vertical-align: middle; }
   .ics-viewer .lconnFilesTreeCheckbox input {
     margin-top: 0px !important; }
   .ics-viewer .ic-thumb-widget-flip-card-is-checked .card-front, .ics-viewer .ic-thumb-widget-flip-card-is-checked .card-back {
-    box-shadow: 0 0 0 2px #3C6DF0 !important; }
+    box-shadow: 0 0 0 2px #049FD9 !important; }
   .ics-viewer .card-back .check {
     background-image: none !important; }
   .ics-viewer .lotusLeft.lconnSelectAllContainer {
@@ -6212,8 +6212,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     max-width: 240px; }
     .ics-viewer form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[type="text"]:focus, .ics-viewer form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[type="text"] .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] textarea {
     margin: .25rem 0 1rem 0 !important;
     max-width: 240px; }
@@ -6360,8 +6360,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     height: auto !important; }
     .ics-viewer .icSearchBar .dijitTextBox:focus, .ics-viewer .icSearchBar .dijitTextBox .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer .icSearchBar .dijitTextBoxFocused {
     box-shadow: 0 1px 0 #007FAB !important;
     outline: none !important;
@@ -6390,13 +6390,13 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     background-repeat: no-repeat !important;
     height: auto !important; }
     .ics-viewer select:focus {
-      border-bottom: 2px solid #3C6DF0 !important;
+      border-bottom: 2px solid #049FD9 !important;
       outline: none !important; }
     .ics-viewer select[disabled] {
       cursor: not-allowed !important;
       color: #969696 !important; }
   .ics-viewer .profileDataTable .dijitComboBox.lotusIndent10 .dijitInputField.dijitInputContainer [id^="dijit_form_ComboBox_"]:focus {
-    border-bottom: 2px solid #3C6DF0 !important; }
+    border-bottom: 2px solid #049FD9 !important; }
   .ics-viewer [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"],
   .ics-viewer [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"] {
     font-size: 12.8px !important;
@@ -6419,7 +6419,7 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     height: auto !important; }
     .ics-viewer [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"]:focus,
     .ics-viewer [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"]:focus {
-      border-bottom: 2px solid #3C6DF0 !important;
+      border-bottom: 2px solid #049FD9 !important;
       outline: none !important; }
     .ics-viewer [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"][disabled],
     .ics-viewer [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"][disabled] {
@@ -7387,8 +7387,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     box-sizing: border-box !important; }
     .ics-viewer textarea:focus {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer [id^="widget_lconn_share_widget_MemberInput_"][id$="_people"],
   .ics-viewer [id^="widget_lconn_share_widget_MemberInput_"][id$="_communities"],
   .ics-viewer [id^="lconn_share_widget_MemberInput_"][id$="_people"],
@@ -7441,8 +7441,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     .ics-viewer .dijitTextBox .typeaheadInput input:focus,
     .ics-viewer .dijitTextBox .typeaheadInput input .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer .lotusFormLabel.lotusNowrap {
     vertical-align: middle !important; }
   .ics-viewer .contactsSearch {
@@ -7474,8 +7474,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
       padding-left: 2rem !important; }
       .ics-viewer .lconn_directorySearchBox .lconn_searchBox input.dijitInputInner:focus, .ics-viewer .lconn_directorySearchBox .lconn_searchBox input.dijitInputInner .dijitTextBoxFocused {
         outline: none !important;
-        border-color: #3C6DF0 !important;
-        box-shadow: 0 1px 0 #3C6DF0 !important; }
+        border-color: #049FD9 !important;
+        box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer .sc .contactsSearch {
     border: 0; }
   .ics-viewer div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] {
@@ -7495,8 +7495,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
       height: auto !important; }
       .ics-viewer div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] input.lotusText:focus, .ics-viewer div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] input.lotusText .dijitTextBoxFocused {
         outline: none !important;
-        border-color: #3C6DF0 !important;
-        box-shadow: 0 1px 0 #3C6DF0 !important; }
+        border-color: #049FD9 !important;
+        box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="myactions"] {
     margin: 1rem auto 2rem; }
     .ics-viewer div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="myactions"] .lotusInlinelist {
@@ -7548,8 +7548,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     height: 36px; }
     .ics-viewer #socialTagName:focus, .ics-viewer #socialTagName .dijitTextBoxFocused, .ics-viewer #lconnTagWidgetcommonTagsTypeAhead:focus, .ics-viewer #lconnTagWidgetcommonTagsTypeAhead .dijitTextBoxFocused, .ics-viewer #contactsTagWidgetcommonTagsTypeAhead:focus, .ics-viewer #contactsTagWidgetcommonTagsTypeAhead .dijitTextBoxFocused, .ics-viewer [id^="lconnTagWidget_"][id$="commonTagsTypeAhead"]:focus, .ics-viewer [id^="lconnTagWidget_"][id$="commonTagsTypeAhead"] .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] {
     line-height: 1.5 !important;
     min-width: 10rem !important;
@@ -7563,8 +7563,8 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] {
     box-sizing: border-box !important; }
     .ics-viewer input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"]:focus, .ics-viewer input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
   .ics-viewer .lotusui30 .lconn_directoryPage .lconn_searchNode.fixed {
     background-color: #FFFFFF !important;
     border-bottom: 0 !important;
@@ -7854,8 +7854,8 @@ body#body .ics-viewer .ics-shelf .moreButton.select, .ics-viewer .ics-shelf .mor
   box-sizing: border-box !important; }
   .ics-sharing-panel.multiAdd-active .multiAddContainer .ics-typeaheadboxmulti-container input:focus, .ics-sharing-panel.multiAdd-active .multiAddContainer .ics-typeaheadboxmulti-container input .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 .ics-viewer-action.ics-viewer-action-share .ics-editBox .hintText {
   font-style: normal !important; }
@@ -8029,8 +8029,8 @@ ul[data-dojo-attach-point="tagList"] li a:hover {
   .ics-viewer .ics-newversionwidget-container form input[type="file"]:focus,
   .ics-viewer .ics-newversionwidget-container form input[type="file"] .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
   .dj_webkit .ics-viewer .ics-thumbnailwidget-container form input[type="file"]::-webkit-file-upload-button,
   .dj_webkit .ics-viewer .ics-newversionwidget-container form input[type="file"]::-webkit-file-upload-button {
     -webkit-appearance: button;
@@ -8092,8 +8092,8 @@ ul[data-dojo-attach-point="tagList"] li a:hover {
   cursor: pointer; }
   .lotusDialogWrapper form ._qkrDialogCompact input[type="file"].qkrFile:focus, .lotusDialogWrapper form ._qkrDialogCompact input[type="file"].qkrFile .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
   .dj_webkit .lotusDialogWrapper form ._qkrDialogCompact input[type="file"].qkrFile::-webkit-file-upload-button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -9449,10 +9449,10 @@ div#sc_home_announcement {
 div#nav_bar_include a#ics-scbanner-home, div#nav_bar_include div#networkMenu_container, div#nav_bar_include a#communitiesMenu_container {
   padding: 0 10px !important; }
 
-td#dijit_MenuItem_82_text {
-  display: none !important;
-  visibility: hidden !important; }
-
+/* td#dijit_MenuItem_82_text {
+   display: none !important;
+   visibility: hidden !important;
+ }*/
 .hikari.ics-scbanner > a#ics-scbanner-home {
   font-weight: bold !important; }
 
@@ -9546,6 +9546,11 @@ div#cisco_homeAnnouncement {
 div#lotusFrame, .lotusFrame {
   margin-top: 134px !important; }
 
+/*
+body {
+  @include global-notification-frame($global-on);
+}
+*/
 #servicesMenu_container > svg {
   width: 10px !important;
   height: 8px !important; }
@@ -9575,6 +9580,18 @@ div[aria-label="Communities"] {
 #bsscom-helpMenu, #notificationsMenu_container, #bss-usersMenu {
   box-sizing: content-box !important; }
 
+.navsimplelist.notificationCenterContainer {
+  right: 0px !important; }
+  .navsimplelist.notificationCenterContainer .icBanner-popover-content {
+    height: 330px !important; }
+
+.icBanner-badge-newNav {
+  left: -15px !important; }
+
+#notificationsMenu .icBanner-popover-content .icNotification-post .bluedot {
+  left: auto !important;
+  top: 10px !important; }
+
 span.lotusBtn {
   border: none !important;
   background-color: #FFFFFF !important; }
@@ -9582,7 +9599,7 @@ span.lotusBtn {
     border: none !important;
     background-color: #FFFFFF !important; }
 
-input[value="Save"], input[value="Post"], input[value="Delete"], input[value="Preview"], input[value="Save as Draft"], input[value="OK"], input[value="Save and Close"], input[value="Send Invitations"], input[value="Import"], input[value="Export"], input[type="submit"] {
+input[value="Save"], input[value="Insert"], input[value="Hide"], input[value="Post"], input[value="Delete"], input[value="Preview"], input[value="Save as Draft"], input[value="OK"], input[value="Save and Close"], input[value="Send Invitations"], input[value="Import"], input[value="Export"], input[type="submit"] {
   border-radius: 2rem !important;
   border-width: 1px !important;
   border-style: solid !important;
@@ -9616,33 +9633,33 @@ input[value="Save"], input[value="Post"], input[value="Delete"], input[value="Pr
   background-color: #049FD9 !important;
   border-color: #049FD9 !important;
   color: #FFFFFF !important; }
-  input[value="Save"]:hover, input[value="Save"]:active, input[value="Post"]:hover, input[value="Post"]:active, input[value="Delete"]:hover, input[value="Delete"]:active, input[value="Preview"]:hover, input[value="Preview"]:active, input[value="Save as Draft"]:hover, input[value="Save as Draft"]:active, input[value="OK"]:hover, input[value="OK"]:active, input[value="Save and Close"]:hover, input[value="Save and Close"]:active, input[value="Send Invitations"]:hover, input[value="Send Invitations"]:active, input[value="Import"]:hover, input[value="Import"]:active, input[value="Export"]:hover, input[value="Export"]:active, input[type="submit"]:hover, input[type="submit"]:active {
+  input[value="Save"]:hover, input[value="Save"]:active, input[value="Insert"]:hover, input[value="Insert"]:active, input[value="Hide"]:hover, input[value="Hide"]:active, input[value="Post"]:hover, input[value="Post"]:active, input[value="Delete"]:hover, input[value="Delete"]:active, input[value="Preview"]:hover, input[value="Preview"]:active, input[value="Save as Draft"]:hover, input[value="Save as Draft"]:active, input[value="OK"]:hover, input[value="OK"]:active, input[value="Save and Close"]:hover, input[value="Save and Close"]:active, input[value="Send Invitations"]:hover, input[value="Send Invitations"]:active, input[value="Import"]:hover, input[value="Import"]:active, input[value="Export"]:hover, input[value="Export"]:active, input[type="submit"]:hover, input[type="submit"]:active {
     text-decoration: none !important;
     outline: none; }
-  input[value="Save"]:focus, input[value="Post"]:focus, input[value="Delete"]:focus, input[value="Preview"]:focus, input[value="Save as Draft"]:focus, input[value="OK"]:focus, input[value="Save and Close"]:focus, input[value="Send Invitations"]:focus, input[value="Import"]:focus, input[value="Export"]:focus, input[type="submit"]:focus {
+  input[value="Save"]:focus, input[value="Insert"]:focus, input[value="Hide"]:focus, input[value="Post"]:focus, input[value="Delete"]:focus, input[value="Preview"]:focus, input[value="Save as Draft"]:focus, input[value="OK"]:focus, input[value="Save and Close"]:focus, input[value="Send Invitations"]:focus, input[value="Import"]:focus, input[value="Export"]:focus, input[type="submit"]:focus {
     box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
-  .dj_a11y input[value="Save"]:focus, .dijit_a11y input[value="Save"]:focus, .dj_a11y input[value="Post"]:focus, .dijit_a11y input[value="Post"]:focus, .dj_a11y input[value="Delete"]:focus, .dijit_a11y input[value="Delete"]:focus, .dj_a11y input[value="Preview"]:focus, .dijit_a11y input[value="Preview"]:focus, .dj_a11y input[value="Save as Draft"]:focus, .dijit_a11y input[value="Save as Draft"]:focus, .dj_a11y input[value="OK"]:focus, .dijit_a11y input[value="OK"]:focus, .dj_a11y input[value="Save and Close"]:focus, .dijit_a11y input[value="Save and Close"]:focus, .dj_a11y input[value="Send Invitations"]:focus, .dijit_a11y input[value="Send Invitations"]:focus, .dj_a11y input[value="Import"]:focus, .dijit_a11y input[value="Import"]:focus, .dj_a11y input[value="Export"]:focus, .dijit_a11y input[value="Export"]:focus, .dj_a11y input[type="submit"]:focus, .dijit_a11y input[type="submit"]:focus {
+  .dj_a11y input[value="Save"]:focus, .dijit_a11y input[value="Save"]:focus, .dj_a11y input[value="Insert"]:focus, .dijit_a11y input[value="Insert"]:focus, .dj_a11y input[value="Hide"]:focus, .dijit_a11y input[value="Hide"]:focus, .dj_a11y input[value="Post"]:focus, .dijit_a11y input[value="Post"]:focus, .dj_a11y input[value="Delete"]:focus, .dijit_a11y input[value="Delete"]:focus, .dj_a11y input[value="Preview"]:focus, .dijit_a11y input[value="Preview"]:focus, .dj_a11y input[value="Save as Draft"]:focus, .dijit_a11y input[value="Save as Draft"]:focus, .dj_a11y input[value="OK"]:focus, .dijit_a11y input[value="OK"]:focus, .dj_a11y input[value="Save and Close"]:focus, .dijit_a11y input[value="Save and Close"]:focus, .dj_a11y input[value="Send Invitations"]:focus, .dijit_a11y input[value="Send Invitations"]:focus, .dj_a11y input[value="Import"]:focus, .dijit_a11y input[value="Import"]:focus, .dj_a11y input[value="Export"]:focus, .dijit_a11y input[value="Export"]:focus, .dj_a11y input[type="submit"]:focus, .dijit_a11y input[type="submit"]:focus {
     box-shadow: none !important;
     outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
-  input[value="Save"]:hover, input[value="Save"]:active, input[value="Post"]:hover, input[value="Post"]:active, input[value="Delete"]:hover, input[value="Delete"]:active, input[value="Preview"]:hover, input[value="Preview"]:active, input[value="Save as Draft"]:hover, input[value="Save as Draft"]:active, input[value="OK"]:hover, input[value="OK"]:active, input[value="Save and Close"]:hover, input[value="Save and Close"]:active, input[value="Send Invitations"]:hover, input[value="Send Invitations"]:active, input[value="Import"]:hover, input[value="Import"]:active, input[value="Export"]:hover, input[value="Export"]:active, input[type="submit"]:hover, input[type="submit"]:active {
+  input[value="Save"]:hover, input[value="Save"]:active, input[value="Insert"]:hover, input[value="Insert"]:active, input[value="Hide"]:hover, input[value="Hide"]:active, input[value="Post"]:hover, input[value="Post"]:active, input[value="Delete"]:hover, input[value="Delete"]:active, input[value="Preview"]:hover, input[value="Preview"]:active, input[value="Save as Draft"]:hover, input[value="Save as Draft"]:active, input[value="OK"]:hover, input[value="OK"]:active, input[value="Save and Close"]:hover, input[value="Save and Close"]:active, input[value="Send Invitations"]:hover, input[value="Send Invitations"]:active, input[value="Import"]:hover, input[value="Import"]:active, input[value="Export"]:hover, input[value="Export"]:active, input[type="submit"]:hover, input[type="submit"]:active {
     text-decoration: none !important;
     outline: none; }
-  input[value="Save"]:focus, input[value="Post"]:focus, input[value="Delete"]:focus, input[value="Preview"]:focus, input[value="Save as Draft"]:focus, input[value="OK"]:focus, input[value="Save and Close"]:focus, input[value="Send Invitations"]:focus, input[value="Import"]:focus, input[value="Export"]:focus, input[type="submit"]:focus {
+  input[value="Save"]:focus, input[value="Insert"]:focus, input[value="Hide"]:focus, input[value="Post"]:focus, input[value="Delete"]:focus, input[value="Preview"]:focus, input[value="Save as Draft"]:focus, input[value="OK"]:focus, input[value="Save and Close"]:focus, input[value="Send Invitations"]:focus, input[value="Import"]:focus, input[value="Export"]:focus, input[type="submit"]:focus {
     box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
     outline: none !important; }
-  .dj_a11y input[value="Save"]:focus, .dijit_a11y input[value="Save"]:focus, .dj_a11y input[value="Post"]:focus, .dijit_a11y input[value="Post"]:focus, .dj_a11y input[value="Delete"]:focus, .dijit_a11y input[value="Delete"]:focus, .dj_a11y input[value="Preview"]:focus, .dijit_a11y input[value="Preview"]:focus, .dj_a11y input[value="Save as Draft"]:focus, .dijit_a11y input[value="Save as Draft"]:focus, .dj_a11y input[value="OK"]:focus, .dijit_a11y input[value="OK"]:focus, .dj_a11y input[value="Save and Close"]:focus, .dijit_a11y input[value="Save and Close"]:focus, .dj_a11y input[value="Send Invitations"]:focus, .dijit_a11y input[value="Send Invitations"]:focus, .dj_a11y input[value="Import"]:focus, .dijit_a11y input[value="Import"]:focus, .dj_a11y input[value="Export"]:focus, .dijit_a11y input[value="Export"]:focus, .dj_a11y input[type="submit"]:focus, .dijit_a11y input[type="submit"]:focus {
+  .dj_a11y input[value="Save"]:focus, .dijit_a11y input[value="Save"]:focus, .dj_a11y input[value="Insert"]:focus, .dijit_a11y input[value="Insert"]:focus, .dj_a11y input[value="Hide"]:focus, .dijit_a11y input[value="Hide"]:focus, .dj_a11y input[value="Post"]:focus, .dijit_a11y input[value="Post"]:focus, .dj_a11y input[value="Delete"]:focus, .dijit_a11y input[value="Delete"]:focus, .dj_a11y input[value="Preview"]:focus, .dijit_a11y input[value="Preview"]:focus, .dj_a11y input[value="Save as Draft"]:focus, .dijit_a11y input[value="Save as Draft"]:focus, .dj_a11y input[value="OK"]:focus, .dijit_a11y input[value="OK"]:focus, .dj_a11y input[value="Save and Close"]:focus, .dijit_a11y input[value="Save and Close"]:focus, .dj_a11y input[value="Send Invitations"]:focus, .dijit_a11y input[value="Send Invitations"]:focus, .dj_a11y input[value="Import"]:focus, .dijit_a11y input[value="Import"]:focus, .dj_a11y input[value="Export"]:focus, .dijit_a11y input[value="Export"]:focus, .dj_a11y input[type="submit"]:focus, .dijit_a11y input[type="submit"]:focus {
     box-shadow: none !important;
     outline: 1px solid #049FD9 !important;
     outline-offset: 1px; }
-  input[value="Save"]:active, input[value="Save"]:hover, input[value="Post"]:active, input[value="Post"]:hover, input[value="Delete"]:active, input[value="Delete"]:hover, input[value="Preview"]:active, input[value="Preview"]:hover, input[value="Save as Draft"]:active, input[value="Save as Draft"]:hover, input[value="OK"]:active, input[value="OK"]:hover, input[value="Save and Close"]:active, input[value="Save and Close"]:hover, input[value="Send Invitations"]:active, input[value="Send Invitations"]:hover, input[value="Import"]:active, input[value="Import"]:hover, input[value="Export"]:active, input[value="Export"]:hover, input[type="submit"]:active, input[type="submit"]:hover {
+  input[value="Save"]:active, input[value="Save"]:hover, input[value="Insert"]:active, input[value="Insert"]:hover, input[value="Hide"]:active, input[value="Hide"]:hover, input[value="Post"]:active, input[value="Post"]:hover, input[value="Delete"]:active, input[value="Delete"]:hover, input[value="Preview"]:active, input[value="Preview"]:hover, input[value="Save as Draft"]:active, input[value="Save as Draft"]:hover, input[value="OK"]:active, input[value="OK"]:hover, input[value="Save and Close"]:active, input[value="Save and Close"]:hover, input[value="Send Invitations"]:active, input[value="Send Invitations"]:hover, input[value="Import"]:active, input[value="Import"]:hover, input[value="Export"]:active, input[value="Export"]:hover, input[type="submit"]:active, input[type="submit"]:hover {
     background-color: #007FAB !important;
     color: #FFFFFF !important;
     border-color: #FFFFFF !important;
     outline: none !important; }
 
-input[value="Save"]:hover:not([disabled]), input[value="Delete"]:hover:not([disabled]), input[value="Post"]:hover:not([disabled]), input[value="Preview"]:hover:not([disabled]), input[value="Save as Draft"]:hover:not([disabled]), input[value="OK"]:hover:not([disabled]), input[value="Save and Close"]:hover:not([disabled]), input[value="Send Invitations"]:hover:not([disabled]), input[value="Import"]:hover:not([disabled]), input[value="Export"]:hover:not([disabled]), input[type="submit"]:hover:not([disabled]) {
+input[value="Save"]:hover:not([disabled]), input[value="Insert"]:hover:not([disabled]), input[value="Hide"]:hover:not([disabled]), input[value="Delete"]:hover:not([disabled]), input[value="Post"]:hover:not([disabled]), input[value="Preview"]:hover:not([disabled]), input[value="Save as Draft"]:hover:not([disabled]), input[value="OK"]:hover:not([disabled]), input[value="Save and Close"]:hover:not([disabled]), input[value="Send Invitations"]:hover:not([disabled]), input[value="Import"]:hover:not([disabled]), input[value="Export"]:hover:not([disabled]), input[type="submit"]:hover:not([disabled]) {
   background-color: #007FAB !important;
   border-color: #007FAB !important; }
 
@@ -10935,6 +10952,75 @@ span.lotusBtn.lotusBtnAction.lotusFirst {
     border-color: #FFFFFF !important;
     outline: none !important; }
 
+#createPlaceButton a img {
+  filter: none !important;
+  position: relative !important;
+  top: 2px;
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212px%22%20height%3D%228px%22%20viewBox%3D%220%200%2012%208%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%09%3Cpolygon%20id%3D%22SVGID_1_%22%20stroke%3D%22none%22%20fill%3D%22%23FFFFFF%22%20%20points%3D%2210.6%200%206%204.7%201.4%200%200%201.4%206%207.5%2012%201.4%22%3E%3C/polygon%3E%0A%3C/svg%3E") !important; }
+
+#addtagwidget input.lotusBtnSmall[value="OK"] {
+  background-color: #049FD9 !important;
+  color: #FFFFFF !important; }
+  #addtagwidget input.lotusBtnSmall[value="OK"]:hover {
+    background-color: #007FAB !important; }
+
+.blog .lotusActionBar .lotusBtn:hover {
+  padding: 0 !important; }
+
+.wikiHeader .lotusBtnSmall[value="OK"] {
+  border-radius: 2rem !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  box-shadow: none !important;
+  transform: translateZ(0) !important;
+  -webkit-font-smoothing: antialiased !important;
+  cursor: pointer !important;
+  -webkit-box-align: center !important;
+  -webkit-box-pack: center !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+  white-space: nowrap !important;
+  padding: 9px 20px !important;
+  font-weight: 500 !important;
+  background-color: #049FD9 !important;
+  border-color: #049FD9 !important;
+  color: #FFFFFF !important; }
+  .wikiHeader .lotusBtnSmall[value="OK"]:hover, .wikiHeader .lotusBtnSmall[value="OK"]:active {
+    text-decoration: none !important;
+    outline: none; }
+  .wikiHeader .lotusBtnSmall[value="OK"]:focus {
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
+    outline: none !important; }
+  .dj_a11y .wikiHeader .lotusBtnSmall[value="OK"]:focus, .dijit_a11y .wikiHeader .lotusBtnSmall[value="OK"]:focus {
+    box-shadow: none !important;
+    outline: 1px solid #049FD9 !important;
+    outline-offset: 1px; }
+  .wikiHeader .lotusBtnSmall[value="OK"]:active, .wikiHeader .lotusBtnSmall[value="OK"]:hover {
+    background-color: #007FAB !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
+
+#submit_button .lotusArrow.lotusDropDownSprite,
+#btn_actn__personCardSendEMail .lotusArrow.lotusDropDownSprite,
+#createPlaceButton a .lotusArrow.lotusDropDownSprite,
+.lotusRightCorner button .lotusArrow.lotusDropDownSprite,
+.lotusBtn[name="submitButton"] .lotusArrow.lotusDropDownSprite,
+.ics-viewer-action-upload .actionLink .lotusArrow.lotusDropDownSprite,
+.lotusBtn.submit.lotusButtonSubmit .lotusArrow.lotusDropDownSprite,
+.filesList .lotusDetails .lotusBtnSmall .lotusArrow.lotusDropDownSprite {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
+#submit_button:hover .lotusArrow.lotusDropDownSprite,
+#btn_actn__personCardSendEMail:hover .lotusArrow.lotusDropDownSprite,
+#createPlaceButton a:hover .lotusArrow.lotusDropDownSprite,
+.lotusRightCorner button:hover .lotusArrow.lotusDropDownSprite,
+.lotusBtn[name="submitButton"]:hover .lotusArrow.lotusDropDownSprite,
+.ics-viewer-action-upload .actionLink:hover .lotusArrow.lotusDropDownSprite,
+.lotusBtn.submit.lotusButtonSubmit:hover .lotusArrow.lotusDropDownSprite,
+.filesList .lotusDetails .lotusBtnSmall:hover .lotusArrow.lotusDropDownSprite {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
+
 * {
   font-family: CiscoSans, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; }
 
@@ -10943,116 +11029,6 @@ body {
 
 .template-homepage .om-go-to-top-container .om-go-to-top-btn {
   background-color: #049FD9 !important; }
-
-ul[role="menu"] {
-  padding-top: 8px !important;
-  padding-bottom: 10px !important; }
-  ul[role="menu"] li {
-    color: #000000 !important;
-    padding-top: 5px !important;
-    height: 30px !important; }
-    ul[role="menu"] li:hover {
-      color: #007FAB !important; }
-  ul[role="menu"] li a {
-    font-size: 15px !important;
-    padding-left: 12px !important;
-    padding-right: 16px !important;
-    height: 30px !important;
-    border-left: solid 4px #FFFFFF !important; }
-    ul[role="menu"] li a:hover {
-      color: #007FAB !important;
-      border-left: solid 4px #049FD9 !important;
-      border-bottom: none !important;
-      border-top: none !important; }
-
-ul[role="menu"] > li > a.selected {
-  border-left: 4px #049FD9 !important;
-  border-bottom: none !important;
-  border-top: none !important; }
-
-ul[role="menu"] > li > a::after:hover {
-  border-top: none !important;
-  border-bottom: none !important; }
-
-.ics-scbanner .navsimplelist > li a:hover:before, .ics-scbanner .navsimplelist > li a:hover::after {
-  background-color: transparent !important; }
-
-table[role="menu"] td:first-child {
-  display: none !important; }
-
-table[role="menu"] td:nth-child(2) {
-  color: #000000 !important;
-  height: 20px !important;
-  border-top: none !important;
-  border-bottom: none !important;
-  border-left: solid 4px #FFFFFF !important; }
-  table[role="menu"] td:nth-child(2):hover {
-    color: #007FAB !important;
-    border-left: solid 4px #049FD9 !important;
-    z-index: 3 !important; }
-
-.digitReset tr:hover, .digitMenuPopup tr:hover, .digitPopup tr:hover {
-  border-left: solid 4px #049FD9 !important; }
-
-.lotusui30 .dijitMenuPopup .dijitMenuTable .digitMenuItemFocused td.digitMenuItemLabel {
-  border-bottom: none !important;
-  border-top: none !important; }
-
-table#CommunitiesActionsMenuMain, table[id^="dijit_Menu_"], table[id$="moreActions"], table[role="menu"], .lotusui30 .dijitMenuPopup table.dijitMenuTable {
-  padding: 5px 0px 5px 0px !important; }
-
-/*
-#dijit_MenuItem_0_text, #dijit_MenuItem_1_text, #dijit_MenuItem_2_text, #dijit_MenuItem_3_text, #dijit_MenuItem_4_text{
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 8px !important;
-}
-
-table#CommunitiesActionsMenuMain > tbody > tr > td, table#dijit_Menu_0 > tbody > tr > td {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 8px !important;
-}
-
-table#W50bf66350244_4bfe_81ce_957b386e6c55moreActions tbody > tr > td.dijitReset.dijitMenuItemLabel {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 8px !important;
-}
-*/
-table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 10px !important; }
-
-table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 10px !important; }
-
-table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 10px !important; }
-
-table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 10px !important; }
-
-table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 10px !important; }
-
-table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel {
-  border-bottom: none !important;
-  border-top: none !important;
-  padding: 7px 2px 7px 10px !important; }
-
-.lotusui30dojo .loutsGlobalActionBarMenu .dijitMenuItem.dijitMenuItemFocused.dijitReset {
-  border-bottom: none !important;
-  border-top: none !important; }
 
 span[id^="com_ibm_social_as_filter_FilterContainer_"] .lotusLeft {
   margin-top: -10px !important; }
@@ -11208,6 +11184,378 @@ div.ics-panel-entry.bidiAware.comment {
 .lotusui.lotusui30dojo.lotusui30_body .lotusFrame .lotusWrapper {
   z-index: 2 !important; }
 
+.lotusCommunities.lotusWidget_3columnsWithBannerTopMenuLayout .lotusMain {
+  padding-left: 40px !important; }
+  .lotusCommunities.lotusWidget_3columnsWithBannerTopMenuLayout .lotusMain #lotusColLeft {
+    width: 432px !important;
+    padding-top: 0px !important; }
+  .lotusCommunities.lotusWidget_3columnsWithBannerTopMenuLayout .lotusMain .lotusContent {
+    padding-left: 0px !important; }
+
+.lotusCommunities.lotusWidget_3columnsTopMenuLayout .lotusMain {
+  padding-left: 40px !important; }
+  .lotusCommunities.lotusWidget_3columnsTopMenuLayout .lotusMain #lotusColLeft {
+    width: 432px !important;
+    padding-top: 0px !important; }
+  .lotusCommunities.lotusWidget_3columnsTopMenuLayout .lotusMain .lotusContent {
+    width: 432px !important;
+    padding-left: 34px !important; }
+  .lotusCommunities.lotusWidget_3columnsTopMenuLayout .lotusMain #lotusColRight {
+    width: 432px !important; }
+
+/*
+.lotusCommunities .lotusMain #lotusColLeft *{
+  max-width: 400px !important;
+}
+
+#col1DropZone{
+  margin-left: 48px;
+  margin-top: -16px;
+  width: 342px;
+  .lotusWidget2 {
+    width: 342px;
+  }
+}
+*/
+div#dropdownNavMenuContainer div#dropdownNavMenu li a:hover, div#dropdownNavMenuContainer div#dropdownNavMenu li a:focus, div#dropdownSubMenuContainer div#dropdownSubMenu li a:hover, div#dropdownSubMenuContainer div#dropdownSubMenu li a:focus {
+  background-color: #d8d8d8 !important; }
+div#dropdownNavMenuContainer div#dropdownNavMenu li.lotusSelected, div#dropdownNavMenuContainer div#dropdownNavMenu li:hover, div#dropdownSubMenuContainer div#dropdownSubMenu li.lotusSelected, div#dropdownSubMenuContainer div#dropdownSubMenu li:hover {
+  background-color: #d8d8d8 !important;
+  border-left: solid 4px #049FD9 !important;
+  margin-left: 0px !important; }
+div#dropdownNavMenuContainer div#dropdownNavMenu li.lotusSelected a, div#dropdownSubMenuContainer div#dropdownSubMenu li.lotusSelected a {
+  background-color: #d8d8d8 !important;
+  font-weight: bold !important; }
+
+#dropdownNavMenuTitleLink, #dropdownSubMenuTitleLink {
+  border-left: solid 4px #049FD9 !important; }
+  #dropdownNavMenuTitleLink a, #dropdownSubMenuTitleLink a {
+    border: solid 1px #d8d8d8 !important;
+    font-weight: bold !important; }
+
+ul[role="menu"] {
+  padding-top: 8px !important;
+  padding-bottom: 10px !important; }
+  ul[role="menu"] li {
+    color: #000000 !important;
+    padding-top: 5px !important;
+    height: 30px !important; }
+    ul[role="menu"] li:hover {
+      color: #007FAB !important; }
+  ul[role="menu"] li a {
+    font-size: 15px !important;
+    padding-left: 12px !important;
+    padding-right: 16px !important;
+    height: 30px !important;
+    border-left: solid 4px #FFFFFF !important; }
+    ul[role="menu"] li a:hover {
+      color: #007FAB !important;
+      border-left: solid 4px #049FD9 !important;
+      border-bottom: none !important;
+      border-top: none !important; }
+
+ul[role="menu"] > li > a.selected {
+  border-left: 4px #049FD9 !important;
+  border-bottom: none !important;
+  border-top: none !important; }
+
+ul[role="menu"] > li > a::after:hover {
+  border-top: none !important;
+  border-bottom: none !important; }
+
+.ics-scbanner .navsimplelist > li a:hover:before, .ics-scbanner .navsimplelist > li a:hover::after {
+  background-color: transparent !important; }
+
+table[role="menu"] td:first-child {
+  display: none !important; }
+
+table[role="menu"] td:nth-child(2) {
+  color: #000000 !important;
+  height: 20px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: solid 4px #FFFFFF !important; }
+  table[role="menu"] td:nth-child(2):hover {
+    color: #007FAB !important;
+    border-left: solid 4px #049FD9 !important;
+    z-index: 3 !important; }
+
+.digitReset tr:hover, .digitMenuPopup tr:hover, .digitPopup tr:hover {
+  border-left: solid 4px #049FD9 !important; }
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .digitMenuItemFocused td.digitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important; }
+
+table#CommunitiesActionsMenuMain, table[id^="dijit_Menu_"], table[id$="moreActions"], table[role="menu"], .lotusui30 .dijitMenuPopup table.dijitMenuTable {
+  padding: 5px 0px 5px 0px !important; }
+
+/*
+#dijit_MenuItem_0_text, #dijit_MenuItem_1_text, #dijit_MenuItem_2_text, #dijit_MenuItem_3_text, #dijit_MenuItem_4_text{
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+
+table#CommunitiesActionsMenuMain > tbody > tr > td, table#dijit_Menu_0 > tbody > tr > td {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+
+table#W50bf66350244_4bfe_81ce_957b386e6c55moreActions tbody > tr > td.dijitReset.dijitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 8px !important;
+}
+*/
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important; }
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel, table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuArrowCell {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important; }
+
+table[role="menu"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important; }
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemFocused.dijitFocused.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important; }
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem.dijitMenuItemSelected > td.dijitReset.dijitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important; }
+
+table[id$="moreActions"] > tbody.dijitReset > tr.dijitReset.dijitMenuItem > td.dijitReset.dijitMenuItemLabel {
+  border-bottom: none !important;
+  border-top: none !important;
+  padding: 7px 2px 7px 10px !important; }
+
+.lotusui30dojo .loutsGlobalActionBarMenu .dijitMenuItem.dijitMenuItemFocused.dijitReset {
+  border-bottom: none !important;
+  border-top: none !important; }
+
+#body .dijitMenuItemFocused td.dijitReset {
+  border-color: #049FD9 !important; }
+
+.lotusui30dojo .lotusGlobalActionBarMenu .dijitMenuItem.dijitMenuItemFocused .dijitReset {
+  border-top: none !important;
+  border-bottom: none !important; }
+
+#tabNavMoreBtn_dropdown {
+  top: 271px !important; }
+
+.lconn_directorySearchBox .lconn_searchIcon, .lconn_directorySearchBox .dijitPlaceHolder {
+  margin-top: 0 !important; }
+
+.app_palette_modal_header {
+  background-color: #049FD9 !important; }
+
+.app_palette_modal_tabs_ul {
+  padding-left: 0px !important; }
+
+#communityPalette {
+  border: none !important;
+  font-weight: normal !important; }
+
+.lotusDialogHeader,
+.importHeader {
+  background-color: #049FD9 !important; }
+
+.lotusDialogHeader {
+  padding: 15px 48px 15px 48px !important; }
+
+.lotusDialogHeader .lotusHeading {
+  color: #FFFFFF !important;
+  font-size: 1.25em !important; }
+
+.lotusDialog.lotusForm {
+  border: none !important; }
+
+.lotusDialogBorder > .lotusDialog {
+  border: none !important; }
+
+a.lotusDialogClose {
+  color: #FFFFFF !important; }
+
+.lotusLikeHeader {
+  background-color: #049FD9 !important; }
+
+.lotusDialogHeader h1.lotusHeading .dijitDialogTitle {
+  color: #FFFFFF !important;
+  font-size: 1.25em !important; }
+
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabel {
+  border-bottom: solid 4px #049FD9 !important; }
+
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabelSpan {
+  color: #007FAB !important; }
+
+.lconnPicker .tabbedSwitch .lconnPickerSourceLabelSpan {
+  color: #58585B !important; }
+
+.lconnPickerSourceToCheck > div:hover img.lconnPickerSourceLabelIconCloud {
+  background-image: url(/connections/resources/web/com.ibm.lconn.core.styles.oneui3/images/blank.gif?etag=20180213.201737) !important; }
+
+.cke_dialog_body .cke_dialog_title {
+  background-color: #049FD9 !important;
+  line-height: 1 !important; }
+.cke_dialog_body .cke_dialog_ui_hbox_first a {
+  border-radius: 2rem !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  box-shadow: none !important;
+  transform: translateZ(0) !important;
+  -webkit-font-smoothing: antialiased !important;
+  cursor: pointer !important;
+  -webkit-box-align: center !important;
+  -webkit-box-pack: center !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+  white-space: nowrap !important;
+  padding: 9px 20px !important;
+  font-weight: 500 !important;
+  background-color: #049FD9 !important;
+  border-color: #049FD9 !important;
+  color: #FFFFFF !important; }
+  .cke_dialog_body .cke_dialog_ui_hbox_first a:hover, .cke_dialog_body .cke_dialog_ui_hbox_first a:active {
+    text-decoration: none !important;
+    outline: none; }
+  .cke_dialog_body .cke_dialog_ui_hbox_first a:focus {
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
+    outline: none !important; }
+  .dj_a11y .cke_dialog_body .cke_dialog_ui_hbox_first a:focus, .dijit_a11y .cke_dialog_body .cke_dialog_ui_hbox_first a:focus {
+    box-shadow: none !important;
+    outline: 1px solid #049FD9 !important;
+    outline-offset: 1px; }
+  .cke_dialog_body .cke_dialog_ui_hbox_first a:active, .cke_dialog_body .cke_dialog_ui_hbox_first a:hover {
+    background-color: #007FAB !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
+  .cke_dialog_body .cke_dialog_ui_hbox_first a span {
+    color: #FFFFFF !important;
+    font-family: CiscoSans, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    text-shadow: none !important; }
+.cke_dialog_body .cke_dialog_ui_hbox_last a {
+  border-radius: 2rem !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  box-shadow: none !important;
+  transform: translateZ(0) !important;
+  -webkit-font-smoothing: antialiased !important;
+  cursor: pointer !important;
+  -webkit-box-align: center !important;
+  -webkit-box-pack: center !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+  white-space: nowrap !important;
+  padding: 9px 20px !important;
+  font-weight: 500 !important;
+  background-color: #FFFFFF !important;
+  border-color: #049FD9 !important;
+  color: #049FD9 !important; }
+  .cke_dialog_body .cke_dialog_ui_hbox_last a:hover, .cke_dialog_body .cke_dialog_ui_hbox_last a:active {
+    text-decoration: none !important;
+    outline: none; }
+  .cke_dialog_body .cke_dialog_ui_hbox_last a:focus {
+    box-shadow: 0 0 0 1px #007FAB, 0 0 0 2px #049FD9 !important;
+    outline: none !important; }
+  .dj_a11y .cke_dialog_body .cke_dialog_ui_hbox_last a:focus, .dijit_a11y .cke_dialog_body .cke_dialog_ui_hbox_last a:focus {
+    box-shadow: none !important;
+    outline: 1px solid #049FD9 !important;
+    outline-offset: 1px; }
+  .cke_dialog_body .cke_dialog_ui_hbox_last a:active, .cke_dialog_body .cke_dialog_ui_hbox_last a:hover {
+    background-color: #049FD9 !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    outline: none !important; }
+  .cke_dialog_body .cke_dialog_ui_hbox_last a span {
+    color: #049FD9 !important;
+    font-family: CiscoSans, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    text-shadow: none !important; }
+    .cke_dialog_body .cke_dialog_ui_hbox_last a span:hover {
+      color: #FFFFFF !important; }
+  .cke_dialog_body .cke_dialog_ui_hbox_last a:hover span {
+    color: #FFFFFF !important; }
+
+.cke_dialog_body .cke_dialog_ui_hbox_first a.cke_btn_locked, .cke_dialog_body .cke_dialog_ui_hbox_first a.cke_btn_reset, .cke_dialog_body .cke_dialog_ui_hbox_last a[id$="previewLink"] {
+  padding: 0px !important;
+  background-color: white !important;
+  border-color: white !important; }
+
+#insertImageDialogBottom {
+  margin-top: 0px !important; }
+
+select[id^="compactpicker_select_"] {
+  padding-right: 0px !important; }
+
+.lotusDialogClose, .dijitDialogCloseIcon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important; }
+
+.lotusDialogClose:focus, .dijitDialogCloseIcon:focus {
+  outline: none !important; }
+
+div[id^="com_ibm_oneui_controls_internal__MasterPopup_"] .lotusLikeLightBox .lotusLikeHeader {
+  background-color: #049FD9 !important; }
+
+#_profileEditScene_div #tableEditProfileContactInfo td {
+  display: table-cell !important; }
+
+.lotusui30 .lotusForm2 .lotusMessage2 {
+  margin-right: 0 !important; }
+
+.lotusui30 .lotusForm2 .lotusFormTitle {
+  padding-right: 0 !important; }
+
+.lotusui30 .lotusForm .lotusMessage2 {
+  margin-right: 0 !important; }
+
+.lotusui30 .lotusForm .lotusFormTitle {
+  padding-right: 0 !important; }
+
+.lotusui30 .lotusMessage2 .lotusMessageBody:focus {
+  outline: none !important; }
+
+.templateList > fieldset > div > .lotusSearch > select {
+  display: none !important; }
+
+.lotusFieldWrapper input:not(#generateAppPassword):not(#enableBiDi)[id$="copyTemplateMembers"] {
+  height: 16px !important;
+  width: 20px !important;
+  position: relative;
+  transition: none !important;
+  -webkit-appearance: none;
+  border: none !important;
+  min-width: 0 !important;
+  padding-right: 0 !important;
+  border-bottom: none !important; }
+
+.lotusui.lotusui30dojo.lotusui30_body .lotusFrame .lotusWrapper .lotusHeading span {
+  padding-left: 0 !important; }
+
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
+  z-index: 2 !important; }
+
+#contentContainer_results_FiltersForm_contentBoost {
+  z-index: 2 !important; }
+
+tbody.dijitReset > tr[aria-label="Remove "] {
+  display: none !important; }
+
+.ic-stream-controls .ic-filterbar {
+  z-index: 2 !important; }
+
 #bizCardNavMenu li a:hover {
   color: #049FD9 !important;
   border-color: #FFFFFF !important;
@@ -11225,6 +11573,11 @@ div.ics-panel-entry.bidiAware.comment {
 a {
   font-weight: normal !important; }
 
+a.lotusPerson, a:visited.lotusPerson, .vcard a.fn.url {
+  color: #007FAB !important; }
+  a.lotusPerson:hover, a:visited.lotusPerson:hover, .vcard a.fn.url:hover {
+    color: #049FD9 !important; }
+
 #homepageLeftNavigationMenuContainer li {
   padding: 14px 24px !important;
   padding-left: 39px !important;
@@ -11233,8 +11586,7 @@ a {
   #homepageLeftNavigationMenuContainer li:hover {
     background-color: #d8d8d8 !important; }
   #homepageLeftNavigationMenuContainer li.lotusSelected {
-    border-left-color: #049FD9 !important;
-    margin-left: 1px !important; }
+    border-left-color: #049FD9 !important; }
     #homepageLeftNavigationMenuContainer li.lotusSelected a {
       font-weight: bold !important;
       text-decoration-line: none !important; }
@@ -11301,9 +11653,6 @@ a {
 .lotusColLeft a:hover {
   text-decoration-line: none !important; }
 
-.lotusColLeft .lotusSelected {
-  margin-left: 1px !important; }
-
 .lotusMain #lotusColLeft .lotusMenuSection > .lotusClickable:first-child.lotusSelected, .lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected], .lotusMain #lotusColLeft .lotusMenuSubsection .lotusClickable.lotusSelected, #menu_allfiles_childContainer > div.lotusSelected {
   border-left-color: #049FD9 !important; }
   .lotusMain #lotusColLeft .lotusMenuSection > .lotusClickable:first-child.lotusSelected a:focus, .lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected] a:focus, .lotusMain #lotusColLeft .lotusMenuSubsection .lotusClickable.lotusSelected a:focus, #menu_allfiles_childContainer > div.lotusSelected a:focus {
@@ -11324,8 +11673,7 @@ div[id^="lconn_communities_catalog_widgets_PlacesNavigation_"] li {
   div[id^="lconn_communities_catalog_widgets_PlacesNavigation_"] li:hover {
     background-color: #d8d8d8; }
   div[id^="lconn_communities_catalog_widgets_PlacesNavigation_"] li.lotusSelected {
-    border-left-color: #049FD9 !important;
-    margin-left: 1px !important; }
+    border-left-color: #049FD9 !important; }
     div[id^="lconn_communities_catalog_widgets_PlacesNavigation_"] li.lotusSelected:hover {
       background-color: #d8d8d8 !important; }
     div[id^="lconn_communities_catalog_widgets_PlacesNavigation_"] li.lotusSelected a {
@@ -11354,14 +11702,15 @@ div[id^="lconn_communities_catalog_widgets_TagFilter_"] h2 {
   #dashboardColLeft li:hover, #todolistColLeft li:hover, #t_dashboardColLeft li:hover, #ruDashNavPanel li:hover {
     background-color: #d8d8d8; }
   #dashboardColLeft li.lotusSelected, #todolistColLeft li.lotusSelected, #t_dashboardColLeft li.lotusSelected, #ruDashNavPanel li.lotusSelected {
-    border-left-color: #049FD9 !important;
-    margin-left: 1px !important; }
+    border-left-color: #049FD9 !important; }
     #dashboardColLeft li.lotusSelected:hover, #todolistColLeft li.lotusSelected:hover, #t_dashboardColLeft li.lotusSelected:hover, #ruDashNavPanel li.lotusSelected:hover {
       background-color: #d8d8d8 !important; }
     #dashboardColLeft li.lotusSelected a, #todolistColLeft li.lotusSelected a, #t_dashboardColLeft li.lotusSelected a, #ruDashNavPanel li.lotusSelected a {
       font-weight: bold !important;
-      text-decoration-line: none !important; }
+      text-decoration-line: none !important;
+      white-space: nowrap !important; }
   #dashboardColLeft li a, #todolistColLeft li a, #t_dashboardColLeft li a, #ruDashNavPanel li a {
+    white-space: nowrap !important;
     margin: 0px !important; }
     #dashboardColLeft li a:hover, #dashboardColLeft li a:focus, #todolistColLeft li a:hover, #todolistColLeft li a:focus, #t_dashboardColLeft li a:hover, #t_dashboardColLeft li a:focus, #ruDashNavPanel li a:hover, #ruDashNavPanel li a:focus {
       border: none !important; }
@@ -11428,5 +11777,8 @@ div[id^="lconn_communities_catalog_widgets_TagFilter_"] h2 {
         background-color: transparent !important;
         border-color: transparent !important;
         text-decoration: none !important; }
+
+#_profileEditScene_div #tableEditProfileContactInfo td {
+  display: table-cell !important; }
 
 /*# sourceMappingURL=global.css.map */

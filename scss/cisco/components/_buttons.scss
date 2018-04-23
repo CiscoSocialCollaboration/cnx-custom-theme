@@ -9,12 +9,12 @@ span.lotusBtn {
 }
 
 //Save and Cancel Buttons: start
-input[value = "Save"], input[value = "Post"], input[value = "Delete"], input[value = "Preview"], input[value = "Save as Draft"], input[value = "OK"], input[value = "Save and Close"], input[value = "Send Invitations"], input[value = "Import"], input[value = "Export"], input[type = "submit"]{
+input[value = "Save"], input[value = "Insert"], input[value = "Hide"], input[value = "Post"], input[value = "Delete"], input[value = "Preview"], input[value = "Save as Draft"], input[value = "OK"], input[value = "Save and Close"], input[value = "Send Invitations"], input[value = "Import"], input[value = "Export"], input[type = "submit"]{
   @include btnbasics;
 	@include btnprimary;
 }
 
-input[value = "Save"]:hover:not([disabled]), input[value = "Delete"]:hover:not([disabled]), input[value = "Post"]:hover:not([disabled]), input[value = "Preview"]:hover:not([disabled]), input[value = "Save as Draft"]:hover:not([disabled]), input[value = "OK"]:hover:not([disabled]), input[value = "Save and Close"]:hover:not([disabled]), input[value = "Send Invitations"]:hover:not([disabled]), input[value = "Import"]:hover:not([disabled]), input[value = "Export"]:hover:not([disabled]), input[type = "submit"]:hover:not([disabled]){
+input[value = "Save"]:hover:not([disabled]), input[value = "Insert"]:hover:not([disabled]), input[value = "Hide"]:hover:not([disabled]), input[value = "Delete"]:hover:not([disabled]), input[value = "Post"]:hover:not([disabled]), input[value = "Preview"]:hover:not([disabled]), input[value = "Save as Draft"]:hover:not([disabled]), input[value = "OK"]:hover:not([disabled]), input[value = "Save and Close"]:hover:not([disabled]), input[value = "Send Invitations"]:hover:not([disabled]), input[value = "Import"]:hover:not([disabled]), input[value = "Export"]:hover:not([disabled]), input[type = "submit"]:hover:not([disabled]){
   background-color: $brand-01 !important;
   border-color: $brand-01 !important;
 }
@@ -471,4 +471,53 @@ span.lotusBtn.lotusBtnAction.lotusFirst {
   background-color: $brand-02 !important;
   border-color: $brand-02 !important;
   color: $color-white !important;
+}
+
+//Start a Community button
+#createPlaceButton a img{
+	filter:none!important;
+	position:relative!important;
+	top:2px;
+  //background-image: svg-url-with-replaced-fill($svg-chevron-down, '#000000', $color-white) !important;
+	background-image:url($community-down)!important;
+}
+
+//New blog entry
+#addtagwidget{
+  input.lotusBtnSmall[value="OK"]{
+    background-color: $brand-02 !important;
+    color: $color-white !important;
+    &:hover{
+      background-color: $brand-01 !important;
+    }
+  }
+}
+
+.blog .lotusActionBar .lotusBtn:hover{
+  padding: 0 !important;
+}
+
+//Wiki add Tags
+.wikiHeader .lotusBtnSmall[value="OK"]{
+  @include btnprimary;
+}
+
+//Down arrow for dropdowns
+#submit_button,
+#btn_actn__personCardSendEMail,
+#createPlaceButton a,
+.lotusRightCorner button,
+.lotusBtn[name="submitButton"],
+.ics-viewer-action-upload .actionLink,
+.lotusBtn.submit.lotusButtonSubmit,
+.filesList .lotusDetails .lotusBtnSmall
+{
+  .lotusArrow.lotusDropDownSprite {
+    background-image: svg-url-with-replaced-fill($svg-chevron-down, '#000000', $color-white) !important;
+  }
+  &:hover {
+    .lotusArrow.lotusDropDownSprite {
+      background-image: svg-url-with-replaced-fill($svg-chevron-down, '#000000', $color-white) !important;
+    }
+  }
 }

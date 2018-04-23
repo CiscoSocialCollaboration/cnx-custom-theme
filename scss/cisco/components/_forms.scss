@@ -1,0 +1,43 @@
+//Edit my profile
+#_profileEditScene_div #tableEditProfileContactInfo td{
+  display: table-cell !important;
+}
+
+//Edit community: Messages
+.lotusui30 .lotusForm2 .lotusMessage2{
+  margin-right: 0 !important;
+}
+
+.lotusui30 .lotusForm2 .lotusFormTitle{
+  padding-right: 0 !important;
+}
+
+.lotusui30 .lotusForm .lotusMessage2{
+  margin-right: 0 !important;
+}
+
+.lotusui30 .lotusForm .lotusFormTitle{
+  padding-right: 0 !important;
+}
+
+//Posting a status update
+.lotusui30 .lotusMessage2 .lotusMessageBody:focus {
+  outline: none !important;
+}
+
+//Start activity extra select element
+.templateList > fieldset >  div > .lotusSearch > select {
+  display: none !important;
+}
+
+.lotusFieldWrapper input:not(#generateAppPassword):not(#enableBiDi)[id$="copyTemplateMembers"]{
+  height: 16px !important;
+  width: 20px !important;
+  position: relative;
+  transition: none !important;
+  -webkit-appearance: none;
+  border: none !important;
+  min-width: 0 !important;
+  padding-right: 0 !important;
+  border-bottom: none !important;
+}

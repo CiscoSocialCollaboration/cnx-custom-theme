@@ -7,13 +7,15 @@ function ciscoMod (repoName) {
       globalNotification: 'This is an early access environment, not yet fully approved for Cisco business data. DO NOT post any new Cisco business data here. Users who violate the <a href="https://apps.na.collabserv.com/wikis/home?lang=en-us#!/wiki/Wb45fb83ec81b_4af8_b66a_622c70dd8a0e/page/Terms%20and%20Conditions">Terms &amp; Conditions</a> of use may have their access revoked.',
       dataAdvisorToolLink: 'https://dataadvisor.cloudapps.cisco.com/da/cwizard',
       contactUsLink: 'https://apps.na.collabserv.com/communities/service/html/communityoverview?communityUuid=9a9fcf41-bf9b-4165-8a1b-9a99705539bb',
-      touLink: 'https://apps.na.collabserv.com/wikis/home?lang=en-us#!/wiki/Wb45fb83ec81b_4af8_b66a_622c70dd8a0e/page/Terms%20and%20Conditions'
+      touLink: 'https://apps.na.collabserv.com/wikis/home?lang=en-us#!/wiki/Wb45fb83ec81b_4af8_b66a_622c70dd8a0e/page/Terms%20and%20Conditions',
+      employeeCommunities: 'https://apps.na.collabserv.com/social/home'
     },
     'Cisco-PreProd': {
       globalNotification: 'This is a test environment and is not approved for Cisco business data. All content in this environment will be deleted after the Sandbox Access Program ends.<a id="EcHelp" href="https://apps.na.collabserv.com/wikis/home?lang=en-us#!/wiki/W30ba0f26bd6c_4709_9b3e_5c9021a07d39"> Get started in Employee Communities Help</a>.',
       dataAdvisorToolLink: 'https://dataadvisor.cloudapps.cisco.com/da/cwizard',
       contactUsLink: 'https://apps.na.collabserv.com/communities/service/html/communitystart?communityUuid=77a94da2-f2ca-4bed-ab3c-97eff1992880',
-      touLink: 'https://apps.na.collabserv.com/wikis/home?lang=en-us#!/wiki/W30ba0f26bd6c_4709_9b3e_5c9021a07d39/page/Terms%20and%20Conditions'
+      touLink: 'https://apps.na.collabserv.com/wikis/home?lang=en-us#!/wiki/W30ba0f26bd6c_4709_9b3e_5c9021a07d39/page/Terms%20and%20Conditions',
+      employeeCommunities: 'https://apps.na.collabserv.com/homepage/web/updates/#myStream/imFollowing/all'
     }
   }
 
@@ -41,7 +43,7 @@ function ciscoMod (repoName) {
     // Cisco Confidential
     $('body').prepend('<div id="cisco_confidential"></div>')
     if (config.globalNotification) showGlobalNotification(config.globalNotification);
-    $('#nav_bar_include').prepend('<a id="cisco_logo" href="http://wwwin.cisco.com/c/cec/index.html" target="_parent"><img id="white_logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAA/CAMAAABaUV+eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABC1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAACJg4+MAAAAV3RSTlMAhfP8+fQqn+T98cNjzuaioFf3b1j4Veivu+FrWSwrrA0O16VFDOX7FcHunBPjREDiJ9/2QgbnFghfxs8JD8ejrp4L4Oqxv5JwW3311ChW8P5Tm/rpvCn6aBF7AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAZNJREFUWMPtlHlPwkAQxQcprYCCoAXEC5VDwSLe94EH3gcevO//TSzutrLG1G4TQ9R9f/Rt+yMvw8xkiZSUlJSU/oFCA6FAzJfC0AIxXwIQiP3VcD4tHiDOzov5Ep8WDxBn58Vk+iGaDybTD9F8MJl+iOaDBeiHf+tjOP97X26ED/bNQCOhHnOmJXz0YjL60YvLq54AtSr1T7oxGI3Fyd24oeFIIi4S0pOJaGJEl85OpQEWy56jziuNmc4xw36TzsjWrQHZ3HjEDc8jNjGZsw9TLpnWwKRJ1p4EZgpEs264ibnCO5l3iQHki6ViHjDkwsuoLPAjC18EqjWdkSUGLKBu2zLQkAsPo0xC+Mqq7WvrRBVYHNhdKdm2AdlrYBPhLSGctnd2gb1u5Q5pBK3c7nlun+iAei/qQ6SJjoBjRpp2z+sn9VOgKRfe3YSz89bHtlxcXl3f4JZtCyO6ybfFvJMLp/tPe/7QfXtMCaTN97wtmW1P8KkRrrbc8Fb2+eW1yEiNE+oYVsVqdqSzlZSUlJR+l94AvJKDSileXj4AAAAASUVORK5CYII="/></a><a id="employee_communities" href="https://apps.na.collabserv.com/homepage">Employee Communities</a>')
+    $('#nav_bar_include').prepend('<a id="cisco_logo" href="http://wwwin.cisco.com/c/cec/index.html" target="_parent"><img id="white_logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAA/CAMAAABaUV+eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABC1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAACJg4+MAAAAV3RSTlMAhfP8+fQqn+T98cNjzuaioFf3b1j4Veivu+FrWSwrrA0O16VFDOX7FcHunBPjREDiJ9/2QgbnFghfxs8JD8ejrp4L4Oqxv5JwW3311ChW8P5Tm/rpvCn6aBF7AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAZNJREFUWMPtlHlPwkAQxQcprYCCoAXEC5VDwSLe94EH3gcevO//TSzutrLG1G4TQ9R9f/Rt+yMvw8xkiZSUlJSU/oFCA6FAzJfC0AIxXwIQiP3VcD4tHiDOzov5Ep8WDxBn58Vk+iGaDybTD9F8MJl+iOaDBeiHf+tjOP97X26ED/bNQCOhHnOmJXz0YjL60YvLq54AtSr1T7oxGI3Fyd24oeFIIi4S0pOJaGJEl85OpQEWy56jziuNmc4xw36TzsjWrQHZ3HjEDc8jNjGZsw9TLpnWwKRJ1p4EZgpEs264ibnCO5l3iQHki6ViHjDkwsuoLPAjC18EqjWdkSUGLKBu2zLQkAsPo0xC+Mqq7WvrRBVYHNhdKdm2AdlrYBPhLSGctnd2gb1u5Q5pBK3c7nlun+iAei/qQ6SJjoBjRpp2z+sn9VOgKRfe3YSz89bHtlxcXl3f4JZtCyO6ybfFvJMLp/tPe/7QfXtMCaTN97wtmW1P8KkRrrbc8Fb2+eW1yEiNE+oYVsVqdqSzlZSUlJR+l94AvJKDSileXj4AAAAASUVORK5CYII="/></a><a id="employee_communities" href="'+config.employeeCommunities+'">Employee Communities</a>')
   }, 'div#nav_bar_include a.activities')
 
   /**

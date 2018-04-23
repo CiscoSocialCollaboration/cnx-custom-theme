@@ -1,0 +1,16 @@
+.navsimplelist.notificationCenterContainer {
+  right: 0px !important;
+  .icBanner-popover-content {
+    height: 330px !important;
+  }
+}
+
+//New notifications badge
+.icBanner-badge-newNav{
+  left: -15px !important;
+}
+
+#notificationsMenu .icBanner-popover-content .icNotification-post .bluedot{
+  left: auto !important;
+  top: 10px !important;
+}

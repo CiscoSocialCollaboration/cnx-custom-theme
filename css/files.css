@@ -1324,12 +1324,12 @@ input[type=checkbox] {
 input[type=checkbox]:checked::after,
 .ic-thumb-widget-flip-card-is-checked .card-back .check,
 .ic-thumb-widget-flip-card-is-checked .card-front .check {
-  border-color: #3C6DF0 !important;
-  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 id=%22Layer_1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22	 viewBox=%220 0 12 12%22 style=%22enable-background:new 0 0 12 12;%22 xml:space=%22preserve%22%3E%3Cstyle type=%22text/css%22%3E	.st0{fill:%23FFFFFF;}	.st1{fill:%233C6DF0;}%3C/style%3E%3Crect class=%22st1%22 width=%2212%22 height=%2212%22/%3E%3Cpath class=%22st0%22 d=%22M4.4,7.6L2,5.1L0.7,6.5l3.7,3.7l6.8-6.8L10,2.1L4.4,7.6z%22/%3E%3C/svg%3E") !important;
+  border-color: #049FD9 !important;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 id=%22Layer_1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22	 viewBox=%220 0 12 12%22 style=%22enable-background:new 0 0 12 12;%22 xml:space=%22preserve%22%3E%3Cstyle type=%22text/css%22%3E	.st0{fill:%23FFFFFF;}	.st1{fill:%23049FD9;}%3C/style%3E%3Crect class=%22st1%22 width=%2212%22 height=%2212%22/%3E%3Cpath class=%22st0%22 d=%22M4.4,7.6L2,5.1L0.7,6.5l3.7,3.7l6.8-6.8L10,2.1L4.4,7.6z%22/%3E%3C/svg%3E") !important;
   transition: none !important; }
 
 input[type=checkbox]:checked:hover::after, input[type=checkbox]:checked:focus::after {
-  outline-color: #3C6DF0 !important; }
+  outline-color: #049FD9 !important; }
 
 tbody .lotusFirstCell {
   vertical-align: middle; }
@@ -1339,7 +1339,7 @@ tbody .lotusFirstCell {
 
 /*For Files Tile view quick fix put this code somewhere more relevant once its done*/
 .ic-thumb-widget-flip-card-is-checked .card-front, .ic-thumb-widget-flip-card-is-checked .card-back {
-  box-shadow: 0 0 0 2px #3C6DF0 !important; }
+  box-shadow: 0 0 0 2px #049FD9 !important; }
 
 .card-back .check {
   background-image: none !important; }
@@ -2409,8 +2409,8 @@ form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[t
   max-width: 240px; }
   form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[type="text"]:focus, form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] input[type="text"] .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 form[id^="lconn_profiles_invite_InvitePanel_"][id$="_networkInviteForm"] textarea {
   margin: .25rem 0 1rem 0 !important;
   max-width: 240px; }
@@ -2568,8 +2568,8 @@ div[id^="lconn_share_widget_Dialog_"] .lotusDialog .BrowseGroups {
   height: auto !important; }
   .icSearchBar .dijitTextBox:focus, .icSearchBar .dijitTextBox .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 .icSearchBar .dijitTextBoxFocused {
   box-shadow: 0 1px 0 #007FAB !important;
   outline: none !important;
@@ -2600,14 +2600,14 @@ select {
   background-repeat: no-repeat !important;
   height: auto !important; }
   select:focus {
-    border-bottom: 2px solid #3C6DF0 !important;
+    border-bottom: 2px solid #049FD9 !important;
     outline: none !important; }
   select[disabled] {
     cursor: not-allowed !important;
     color: #969696 !important; }
 
 .profileDataTable .dijitComboBox.lotusIndent10 .dijitInputField.dijitInputContainer [id^="dijit_form_ComboBox_"]:focus {
-  border-bottom: 2px solid #3C6DF0 !important; }
+  border-bottom: 2px solid #049FD9 !important; }
 
 [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"],
 [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"] {
@@ -2631,7 +2631,7 @@ select {
   height: auto !important; }
   [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"]:focus,
   [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"]:focus {
-    border-bottom: 2px solid #3C6DF0 !important;
+    border-bottom: 2px solid #049FD9 !important;
     outline: none !important; }
   [id^="lconn_share_widget_MemberInput_"] [id*="_searchSourceDropdown"][disabled],
   [id^="lconn_share_widget_MemberInput_"] [id*="_roleDropdown"][disabled] {
@@ -3622,8 +3622,8 @@ textarea {
   box-sizing: border-box !important; }
   textarea:focus {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 [id^="widget_lconn_share_widget_MemberInput_"][id$="_people"],
 [id^="widget_lconn_share_widget_MemberInput_"][id$="_communities"],
@@ -3677,8 +3677,8 @@ input.lotusText,
   .dijitTextBox .typeaheadInput input:focus,
   .dijitTextBox .typeaheadInput input .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 .lotusFormLabel.lotusNowrap {
   vertical-align: middle !important; }
@@ -3713,8 +3713,8 @@ input.lotusText,
     padding-left: 2rem !important; }
     .lconn_directorySearchBox .lconn_searchBox input.dijitInputInner:focus, .lconn_directorySearchBox .lconn_searchBox input.dijitInputInner .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
 
 .sc .contactsSearch {
   border: 0; }
@@ -3736,8 +3736,8 @@ div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] 
     height: auto !important; }
     div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] input.lotusText:focus, div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchDiv"] input.lotusText .dijitTextBoxFocused {
       outline: none !important;
-      border-color: #3C6DF0 !important;
-      box-shadow: 0 1px 0 #3C6DF0 !important; }
+      border-color: #049FD9 !important;
+      box-shadow: 0 1px 0 #049FD9 !important; }
 
 div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="myactions"] {
   margin: 1rem auto 2rem; }
@@ -3794,8 +3794,8 @@ div[id^="lconn_files_widget_FilePickerCompactInner_"][id$="_content_searchBar"] 
   height: 36px; }
   #socialTagName:focus, #socialTagName .dijitTextBoxFocused, #lconnTagWidgetcommonTagsTypeAhead:focus, #lconnTagWidgetcommonTagsTypeAhead .dijitTextBoxFocused, #contactsTagWidgetcommonTagsTypeAhead:focus, #contactsTagWidgetcommonTagsTypeAhead .dijitTextBoxFocused, [id^="lconnTagWidget_"][id$="commonTagsTypeAhead"]:focus, [id^="lconnTagWidget_"][id$="commonTagsTypeAhead"] .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] {
   line-height: 1.5 !important;
@@ -3810,8 +3810,8 @@ input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] {
   box-sizing: border-box !important; }
   input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"]:focus, input[id^="com_ibm_sc_widget_SocialContactsSearchTypeAhead_"] .dijitTextBoxFocused {
     outline: none !important;
-    border-color: #3C6DF0 !important;
-    box-shadow: 0 1px 0 #3C6DF0 !important; }
+    border-color: #049FD9 !important;
+    box-shadow: 0 1px 0 #049FD9 !important; }
 
 .lotusui30 .lconn_directoryPage .lconn_searchNode.fixed {
   background-color: #FFFFFF !important;
